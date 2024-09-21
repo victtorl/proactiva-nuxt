@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+// import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import { useWindowSize } from '@vueuse/core'
 const { width, height } = useWindowSize()
 import img1 from "~/assets/landing-imgs/tiendaimg1.png"
