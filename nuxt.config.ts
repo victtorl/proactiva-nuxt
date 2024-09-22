@@ -10,5 +10,9 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  }
+  },
+  target: 'static',
+  
 })
+
+
