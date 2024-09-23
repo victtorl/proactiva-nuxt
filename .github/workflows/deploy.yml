@@ -24,7 +24,7 @@ jobs:
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.TOKEN || github.token }}
         submodules: recursive
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
