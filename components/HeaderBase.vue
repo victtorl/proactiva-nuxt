@@ -34,11 +34,11 @@
 
 
         <!-- header mobile -->
-        <header class=" bg-red-500   sticky top-0 z-50  ">
+        <header class=" bg-primary   sticky top-0 z-50  ">
                         <!-- Sidebar mobile -->
                         <div  v-if="!showsidebar"  class="lg:hidden bg-primary  movile-header " role="dialog" aria-modal="true" id="mobile-header">            
                             <div class="fixed inset-0 z-10  bg-slate-700 bg-opacity-50  dark:bg-slate-300 dark:bg-opacity-25" @click="toogleSidebar" id="boton2"></div>
-                            <div class="fixed inset-y-0 left-0 z-10 w-[80vw]  bg-red-500  overflow-y-auto bg-sidebarcolor dark:bg-secundarydark px-6 pt-3 sm:max-w-sm sm:ring-1  sm:ring-gray-900/10">
+                            <div class="fixed inset-y-0 left-0 z-10 w-[80vw]  bg-primary  overflow-y-auto bg-sidebarcolor dark:bg-secundarydark px-6 pt-3 sm:max-w-sm sm:ring-1  sm:ring-gray-900/10">
                                 <span class=" bg-primary  flex flex-col  w-full">
                                     <div class="flex items-center justify-between bg-primary  dark:bg-pflask">
                                         <a href="/">
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <!-- Navbar content mobile && desktop -->
-                        <nav class="mx-auto flex  bg-red-500   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
+                        <nav class="mx-auto flex  bg-primary py-2 lg:py-0   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
                             <!-- Boton sandwich -->
                             <div class="flex lg:hidden"  @click="toogleSidebar">
                                 <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="boton1">
