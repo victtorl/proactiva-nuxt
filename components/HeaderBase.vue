@@ -57,19 +57,19 @@
                                     <div class="mt-6 flow-root     ">
                                         <div class="mt-8">
                                             <div class="grid grid-cols-1 gap-6 " >
-                                                <a href="/" class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                <a href="/nosotros" class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconIniit.svg" alt="Logo"> -->
                                                     NOSOTROS
                                                 </a>
-                                                <a href="/" class=" flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50"> 
+                                                <a href="/servicios" class=" flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50"> 
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images//SidebarIconMyAcount.svg" alt="Logo"> -->
                                                     SERVICIOS
                                                 </a>
-                                                <a href="/"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                <a href="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconSearch.svg" alt="Logo"> -->
                                                     TIENDA VIRTUAL
                                                 </a>
-                                                <a href="/"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                <a href="/contacto"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SIdebarIconComunidades.svg" alt="Logo"> -->
                                                      CONTACTO
                                                 </a>
