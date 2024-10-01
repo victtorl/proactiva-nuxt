@@ -32,25 +32,27 @@
 </template>
 
 <script setup lang="ts">
+
 import SeoPro from '/public/SeoPro.png'
 useSeoMeta({
-    title: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
-    ogTitle: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
-    description: `En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima`,
-    ogDescription: `En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima`,
+    title: `"Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales"`,
+    ogTitle: `"Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales"`,
+    description: `En Centro Proactiva te ayudamos a superar conflictos emocionales a través
+     de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento
+     y bienestar personal en Lima`,
     ogImage: SeoPro,
     twitterCard: 'summary_large_image'
 })
 
-useHead({
-    meta: [
-      { property: 'og:title', content: 'Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales' },
-      { property: 'og:description', content: 'En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://centroproactiva.com' },
-      { property: 'og:locale', content: 'en_ES' },
-      { property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/ejercicios%2FSeoProactiva.png?alt=media' },
-  ]})
+// useHead({
+//     meta: [
+//       { property: 'og:title', content: 'Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales' },
+//       { property: 'og:description', content: 'En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima' },
+//       { property: 'og:type', content: 'website' },
+//       { property: 'og:url', content: 'https://wwww.centroproactiva.com' },
+//       { property: 'og:locale', content: 'en_ES' },
+//       { property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/ejercicios%2FSeoProactiva.png?alt=media' },
+//   ]})
 
 
 
