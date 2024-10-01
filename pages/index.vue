@@ -31,7 +31,7 @@
 
 </template>
 
-<script setup="ts">
+<script setup lang="ts">
 import SeoProactiva from '/public/SeoProactiva.png'
 useSeoMeta({
     title: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
