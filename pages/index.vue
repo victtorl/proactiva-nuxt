@@ -16,7 +16,7 @@
       <div class="w-full flex flex-col xl:flex-row pb-16  ">
         <div class="pr-10 sm:pb-4 " >
           <p class="text-colortextbold mb-4 xl:text-[20px] 2xl:text-[24px] 3xl:text-[25px]  xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">
-            Somos una organización que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
+            Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
           <button class="rounded-full px-4 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px]" >CONOCE MAS</button>
         </div>
@@ -32,7 +32,15 @@
 </template>
 
 <script setup="ts">
-
+import SeoProactiva from '/public/SeoProactiva.jpg'
+useSeoMeta({
+    title: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
+    ogTitle: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
+    description: `En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima`,
+    ogDescription: `En Centro Proactiva te ayudamos a superar conflictos emocionales a través de la reprogramación mental y el desarrollo de tu potencial. Coaches  expertos en empoderamiento y bienestar personal en Lima`,
+    ogImage: SeoProactiva,
+    twitterCard: 'summary_large_image'
+})
 
 
 
