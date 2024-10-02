@@ -4,7 +4,7 @@
 
         <div class="w-full flex flex-col lg:flex-row pb-16 pt-10">
             <div class="w-full flex lg:block justify-center lg:justify-start lg:w-[45%]">
-                <img src="~/assets/landing-imgs/nosotrosimg.png" class="w-full md:w-[400px] lg:w-full" alt="" srcset="">
+                <img src="~/assets/landing-imgs/nosotrosimg.jpg" class="w-full md:w-[400px]  object-cover lg:h-full lg:w-full" alt="" srcset="">
             </div>
 
             <div class="lg:w-[55%] lg:ml-10 flex flex-col gap-x-4 ">
@@ -29,7 +29,6 @@
                     <h3>Visión</h3>
                     <p class="]">
                         Somos el grupo más importante de Latinoamérica especializado en la reprogramación mental, desarrollo de habilidades, gestión de las emociones y el empoderamiento para el cambio, ayudando a las personas a lograr sus sueños, metas y objetivos aumentando su estado de bienestar y felicidad.
-
                     </p>
                 </div>
 
@@ -41,7 +40,7 @@
                         <li>Disciplina </li>
                         <li>Responsabilidad</li>
                         <li>Empatia</li>
-                        <li>Empatia</li>
+                        <li>Adaptación a los cambios</li>
                     </ul>
                 </div>
             </span>

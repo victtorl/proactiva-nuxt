@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.4",
-    "@vueuse/core": "^11.0.3",
+    "@vueuse/core": "^11.1.0",
     "nuxt": "^3.13.0",
     "nuxt-headlessui": "^1.2.0",
     "pinia": "^2.2.2",

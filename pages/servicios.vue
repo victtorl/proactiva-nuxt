@@ -3,8 +3,8 @@
 
         <div class="w-full flex flex-col lg:flex-row justify-between pt-16">
 
-            <div class="lg:w-[40%]">
-                <img src="~/assets/landing-imgs/serviciosimg1.png" class="w-full pr-4" alt="">
+            <div class="lg:w-[40%] h-full">
+                <img src="~/assets/landing-imgs/servicesWorkshop.jpg" class="w-full pr-4" alt="">
             </div>
 
             <div class="lg:w-[60%] flex  flex-col items-end justify-end">
@@ -34,8 +34,8 @@
 
         <div class="w-full flex flex-col lg:flex-row justify-between pt-16 pb-20">
 
-                <div class="lg:w-[40%] block lg:hidden ">
-                        <img src="~/assets/landing-imgs/serviciosimg1.png" class="w-full pr-4" alt="">
+                <div class="lg:w-[40%] h-full block lg:hidden ">
+                        <img src="~/assets/landing-imgs/servicesMentoring.jpg" class="w-full pr-4" alt="">
                 </div>
 
                 <div class="lg:w-[60%] flex  flex-col items-start justify-start">

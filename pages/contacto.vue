@@ -17,10 +17,11 @@
 
             <!-- FORMULARIO -->
             <div class="flex flex-col  lg:w-[45%]">
-                <input type="text" placeholder="NAME" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
-                <input type="text" placeholder="E-MAIL" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
-                <input type="text" placeholder="SUBJECT" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
-                <textarea name=""  placeholder="MENSAJE" id="" cols="30" rows="10" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold"></textarea>
+                <input type="text" placeholder="Nombre" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
+                <input type="text" placeholder="Celular" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
+                <input type="text" placeholder="Correo" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
+                <input type="text" placeholder="Asunto" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
+                <textarea name=""  placeholder="Mensaje" id="" cols="30" rows="10" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold"></textarea>
 
                 <div class="w-full flex justify-end bg-red">
                 <button class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-white" >
