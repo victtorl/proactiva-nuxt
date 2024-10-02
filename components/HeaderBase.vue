@@ -14,21 +14,34 @@
             </nuxt-link>
 
             <div class="flex items-end gap-x-5 xl:text-[22px] 2xl:text-[28px] 3xl:text-[29px] text-colortextbold font-urbanoR font-semibold">
-                <nuxt-link to="/">
+                <NuxtLink to="/" 
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
                     <p>HOME</p> 
-                </nuxt-link>
-                <nuxt-link to="/nosotros">
+                </NuxtLink>
+                <NuxtLink to="/nosotros"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
                     <p>NOSOTROS</p>
-                </nuxt-link>
-                <nuxt-link to="/servicios">
+                </NuxtLink>
+                <NuxtLink to="/servicios"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
                     <p>SERVICIOS</p>
-                </nuxt-link>
-                <nuxt-link to="/tienda">
+                </NuxtLink>
+                <NuxtLink to="/tienda"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary">
                     <p>TIENDA VIRTUAL</p>
-                </nuxt-link>
-                <nuxt-link to="/contacto">
+                </NuxtLink>
+                <NuxtLink to="/contacto"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary">
                     <p>CONTACTO</p>
-                </nuxt-link>
+                </NuxtLink>
             </div>
         </div>
 
@@ -158,3 +171,11 @@ const enabledisableDark = () => {
 
 
 </script>
+
+<style>
+.nuxt-link-active {
+    font-weight: bold;
+    background-color: red;
+}
+
+</style>

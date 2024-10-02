@@ -23,8 +23,8 @@
                         </h3>
                     </div>
                     <div class="w-full flex justify-end bg-red">
-                    <NuxtLink  to="/services" class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
-                        VER MAS
+                    <NuxtLink  to="/services" class="rounded-full px-10  lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
+                        VER MÁS
                     </NuxtLink>
                     </div>
             </div>
@@ -54,9 +54,9 @@
                             </h3>
                         </div>
 
-                        <div class="w-full xl:w-[580px] 2xl:w-[680px] 3xl:w-[750px] flex justify-end ">
-                            <NuxtLink to="/services" class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
-                                VER MAS
+                        <div class="w-full xl:w-[580px] 2xl:w-[680px] 3xl:w-[750px] flex justify-end  ">
+                            <NuxtLink to="/services" class="rounded-full px-10 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
+                                VER MÁS
                             </NuxtLink>
                         </div>
                 </div>

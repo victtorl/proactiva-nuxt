@@ -1,12 +1,12 @@
 <template>
   <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pt-[36px] lg:pt-0">
       <div class="w-full ">
-        <div class="relative isolate overflow-hidden h-full xl:h-[50vh] mb-4 bg-blackgio  flex justify-center">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[50vh] mb-4 bg-blackgio  flex justify-center">
           <img :src="`${imagesbanner[currentIn].name}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
         </div>
 
       </div>
-
+     
       <div class="w-full flex flex-col xl:flex-row pb-16  ">
         <div class="pr-10 sm:pb-4 " >
           <p class="text-colortextbold mb-4 xl:text-[20px] 2xl:text-[24px] 3xl:text-[25px]  xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">

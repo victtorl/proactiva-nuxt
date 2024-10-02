@@ -4,7 +4,7 @@
 
         <div class="w-full flex flex-col lg:flex-row pb-16 pt-10">
             <div class="w-full flex lg:block justify-center lg:justify-start lg:w-[45%]">
-                <img src="~/assets/landing-imgs/nosotrosimg.jpg" class="w-full md:w-[400px]  object-cover lg:h-full lg:w-full" alt="" srcset="">
+                <img src="~/assets/landing-imgs/nosotrosimg.jpeg" class="w-full md:w-[400px]  object-cover lg:h-full lg:w-full" alt="" srcset="">
             </div>
 
             <div class="lg:w-[55%] lg:ml-10 flex flex-col gap-x-4 ">
