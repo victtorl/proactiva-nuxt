@@ -2,13 +2,7 @@
   <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pt-[36px] lg:pt-0">
       <div class="w-full ">
         <div class="relative isolate overflow-hidden h-full xl:h-[50vh] mb-4 bg-blackgio  flex justify-center">
-          <!-- <img src="~/assets/landing-imgs/bannerhome.jpg" class="w-full h-[45vh] object-cover my-4 opacity-50" alt="" srcset=""> -->
-          <img :src="`${imagesbanner[currentIn].name}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 zoom-img" />
-            <h1 class="xl:text-[28px] 2xl:text-[30px] 3xl:text-[36px] xl:w-32 2xl:w-44 3xl:w-52 2xl:h-64  font-normal absolute top-1/2 -translate-y-1/2 left-5 leading-tight text-white text-bold  ">
-              Cambia tu mente,
-              <br>
-              Cambia tu vida
-            </h1>
+          <img :src="`${imagesbanner[currentIn].name}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
         </div>
 
       </div>
@@ -18,11 +12,11 @@
           <p class="text-colortextbold mb-4 xl:text-[20px] 2xl:text-[24px] 3xl:text-[25px]  xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
-          <NuxtLink  to="/services" class="rounded-full px-4 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MAS</NuxtLink>
+          <NuxtLink  to="/services" class="rounded-full px-4 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MÁS</NuxtLink>
         </div>
 
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
-              <img v-for="item in imgs" :src="`${item.name}`" alt=""  class="w-64 h-64 md:w-auto xl:w-52 2xl:w-64 3xl:w-auto  py-4 lg:py-0" srcset="">
+              <img v-for="item in imgs" :src="`${item.name}`" alt=""  class="w-64 h-64  xl:w-52 xl:h-52 2xl:w-64 2xl:h-64 object-cover py-4 lg:py-0" srcset="">
         </div>
 
       </div>

@@ -6,7 +6,7 @@
             <nuxt-link to="/">
                 
                 <div class="flex items-end">
-                    <img src="~/assets/landing-imgs/logo-principal.png" class="w-10 h-10 object-cover mr-2" alt="" srcset="">
+                    <img src="~/assets/landing-imgs/logoprincipal.png" class="w-10 h-10 object-cover mr-2" alt="" srcset="">
                     <h1 class=" xl:text-[32px] 2xl:text-[38px] 3xl:text-[42px] text-primary font-urbanoR font-semibold">
                         CENTRO PROACTIVA
                     </h1>

@@ -23,9 +23,9 @@
                         </h3>
                     </div>
                     <div class="w-full flex justify-end bg-red">
-                    <button class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-white" >
+                    <NuxtLink  to="/services" class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
                         VER MAS
-                    </button>
+                    </NuxtLink>
                     </div>
             </div>
             
@@ -55,9 +55,9 @@
                         </div>
 
                         <div class="w-full xl:w-[580px] 2xl:w-[680px] 3xl:w-[750px] flex justify-end ">
-                            <button class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-white" >
+                            <NuxtLink to="/services" class="rounded-full px-10 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] text-primary" >
                                 VER MAS
-                            </button>
+                            </NuxtLink>
                         </div>
                 </div>
 
