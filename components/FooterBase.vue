@@ -184,7 +184,7 @@
             Escribenos y te atenderemos de inmediato
           </p>
           <NuxtLink to="/contacto">
-              <div 
+              <!-- <div 
                @click="goToInicio"
               class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue mt-6">
                 <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
@@ -207,32 +207,17 @@
                     strokeLinejoin="round"
                   />
                 </svg>
-              </div>
+              </div> -->
+
+              <button class="relative border-2 border-primary text-white px-6 py-3 rounded-lg overflow-hidden group">
+                    <span class="absolute inset-0 bg-primary/50 transform -translate-x-full group-hover:translate-x-0 transition duration-300"></span>
+                    <span class="relative z-10 group-hover:text-white">
+                        Contáctanos
+                    </span>
+                </button>
+                
             </NuxtLink>
-          <!-- <NuxtLink to="/servicios">
-            <div class="home-two-btn-bg py-3.5 group bg-it-blue border-it-blue w-fit mt-2.5 before:bg-it-black after:bg-it-black">
-              <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter">
-                Subscribirse
-              </span>
-              <svg
-                class="relative z-10"
-                width="7"
-                height="12"
-                viewBox="0 0 7 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  class="transition-all duration-300 group-hover:stroke-it-blue"
-                  d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
-                  stroke="white"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </div>
-          </NuxtLink> -->
+        
         </div>
       </div>
       <div class="w-full h-[150px] sm:[80px] md:h-[65px] bg-it-black">
