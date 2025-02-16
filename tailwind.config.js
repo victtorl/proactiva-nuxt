@@ -32,6 +32,7 @@ export default {
       },
       fontFamily: {
         josefS: ['Josefin+Sans'],
+        robotoflex:['Roboto+Flex'],
         lato:['Lato'],
         mtcursive: ['MtCursiva']
       },

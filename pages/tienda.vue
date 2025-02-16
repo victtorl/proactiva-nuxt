@@ -1,7 +1,7 @@
 <template>
-    <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pb-10 pt-[36px] lg:pt-0">
+    <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pb-10 pt-[36px]  lg:pt-0">
         <div class="w-full flex flex-col items-center text-justify lg:text-center" >
-        <h1 class="pt-8 font-bold text-2xl xl:text-[45px] 2xl:text-[50px] 3xl:text-[56px]">PROACTIVASHOP</h1>
+        <h1 class="pt-8  text-2xl xl:text-[45px] 2xl:text-[50px] 3xl:text-[56px]">PROACTIVASHOP</h1>
 
             <h6 class="pt-1 text-[18px] xl:text-[20px] 2xl:text-[24px] 3xl:text-[28px] xl:w-[800px] 2xl:w-[950px] 3xl:w-[1080px] ">
                 En Proactivashop, nuestra misión es inspirarte y apoyarte en tu viaje hacia una vida más saludable y equilibrada. Creemos en la importancia de cuidar tu cuerpo y mente para alcanzar tu máximo potencial.

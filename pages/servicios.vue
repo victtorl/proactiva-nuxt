@@ -4,7 +4,11 @@
         <div class="w-full flex flex-col lg:flex-row justify-between pt-16">
 
             <div class="lg:w-[40%] h-full">
-                <img src="~/assets/landing-imgs/servicesWorkshop.jpg" class="w-full pr-4" alt="">
+                <img src="~/assets/landing-imgs/servicesWorkshop.jpg" 
+                class="w-full 
+                transform  rounded-xl  bg-white shadow-xl transition duration-300 hover:scale-105
+                "
+                 alt="">
             </div>
 
             <div class="lg:w-[60%] flex  flex-col items-end justify-end">
@@ -35,7 +39,8 @@
         <div class="w-full flex flex-col lg:flex-row justify-between pt-16 pb-20">
 
                 <div class="lg:w-[40%] h-full block lg:hidden ">
-                        <img src="~/assets/landing-imgs/servicesMentoring.jpg" class="w-full pr-4" alt="">
+                        <img src="~/assets/landing-imgs/servicesMentoring.jpg" 
+                        class="w-full pr-4"  alt="">
                 </div>
 
                 <div class="lg:w-[60%] flex  flex-col items-start justify-start">
@@ -62,7 +67,11 @@
                 </div>
 
                 <div class="lg:w-[40%] hidden lg:block ml-4 lg:xl-0">
-                    <img src="~/assets/landing-imgs/serviciosimg1.png" class="w-full pr-4" alt="">
+                    <img src="~/assets/landing-imgs/serviciosimg1.png" 
+                    class="w-full 
+                    transform  rounded-xl  bg-white shadow-xl transition duration-300 hover:scale-105
+                    " 
+                    alt="">
                 </div>
             
             </div>

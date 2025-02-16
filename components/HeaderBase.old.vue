@@ -1,65 +1,53 @@
 <template>
+    <div  class="w-full " >
 
-<div class="bg-gradient-to-r   pb-20  " >
-    <header class="bg-white dark:bg-gray-800 shadow-lg hidden lg:block fixed z-50 w-full ">
-        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <!-- <a href="#" class="text-2xl font-bold text-indigo-800 dark:text-white transition-colors duration-300">
-                Logo
-            </a> -->
+        <div class="hidden mx-7 lg:mx-24  lg:flex justify-between items-center pt-24 z-50">
+
             <nuxt-link to="/">
                 
                 <div class="flex items-end">
                     <img src="~/assets/landing-imgs/logoprincipal.png" class="w-10 h-10 object-cover mr-2" alt="" srcset="">
-                    <h1 class="nav-link xl:text-[26px] 2xl:text-[28px] 3xl:text-[32px] text-primary font-rob font-semibold">
+                    <h1 class=" xl:text-[32px] 2xl:text-[38px] 3xl:text-[42px] text-primary font-urbanoR font-semibold">
                         CENTRO PROACTIVA
                     </h1>
                 </div>
             </nuxt-link>
-                
-            <div class="hidden md:flex space-x-6">
-                <NuxtLink to="/" >
-                    <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Home</a>
+
+            <div class="flex items-end gap-x-5 xl:text-[22px] 2xl:text-[28px] 3xl:text-[29px] text-colortextbold font-urbanoR font-semibold">
+                <NuxtLink to="/" 
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
+                    <p>HOME</p> 
                 </NuxtLink>
-                 <NuxtLink to="/nosotros">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Nosotros</a>
-                 </NuxtLink>
-                 <NuxtLink to="/servicios">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Servicios</a>
-                 </NuxtLink>
-                 <NuxtLink to="/tienda">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Tienda</a>
-                 </NuxtLink>
-                 <NuxtLink to="/contacto">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Contácto</a>
-                 </NuxtLink>
-            </div>
-            <div class="hidden md:flex items-center space-x-4">
-                <button id="darkModeToggle" class="text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white focus:outline-none transition-colors duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                    </svg>
-                </button>
-                <a href="#" class="bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300">Sign Up</a>
-            </div>
-            <button id="mobileMenuButton" class="md:hidden text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white focus:outline-none transition-colors duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>
-        </nav>
-        <div id="mobileMenu" class="mobile-menu md:hidden bg-white dark:bg-gray-800 shadow-lg absolute w-full left-0 transform -translate-y-full opacity-0">
-            <div class="container mx-auto px-4 py-4 space-y-4">
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Home</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">About</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Services</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Contact</a>
-                <a href="#" class="inline-block bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300">Sign Up</a>
+                <NuxtLink to="/nosotros"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
+                    <p>NOSOTROS</p>
+                </NuxtLink>
+                <NuxtLink to="/servicios"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary"
+                >
+                    <p>SERVICIOS</p>
+                </NuxtLink>
+                <NuxtLink to="/tienda"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary">
+                    <p>TIENDA VIRTUAL</p>
+                </NuxtLink>
+                <NuxtLink to="/contacto"
+                active-class="text-primary"
+                exact-active-class="font-bold text-primary">
+                    <p>CONTACTO</p>
+                </NuxtLink>
             </div>
         </div>
-    </header>
 
-      <!-- header mobile -->
-      <header class=" bg-primary   sticky top-0 z-50  ">
+
+        <!-- header mobile -->
+        <header class=" bg-primary   sticky top-0 z-50  ">
                         <!-- Sidebar mobile -->
                         <div  v-if="!showsidebar"  class="lg:hidden bg-primary  movile-header " role="dialog" aria-modal="true" id="mobile-header">            
                             <div class="fixed inset-0 z-10  bg-slate-700 bg-opacity-50  dark:bg-slate-300 dark:bg-opacity-25" @click="toogleSidebar" id="boton2"></div>
@@ -150,46 +138,14 @@
                             
                         </nav>
         </header>
-
+        
+        <div class="border-b-[2px] border-colortextbold mx-7 lg:mx-20  "></div>
+        
+      
    
-</div>
+    </div>
 
 </template>
-
-
-<style>
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-.animate-fade-in {
-    animation: fadeIn 0.3s ease-out forwards;
-}
-.nav-link {
-    position: relative;
-    overflow: hidden;
-}
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: currentColor;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.3s ease-out;
-}
-.nav-link:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-}
-.mobile-menu {
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-}
-</style>
-
 
 <script setup>
 import iconmoon from '~/assets/landing-imgs/iconmoon.png'
@@ -212,4 +168,14 @@ const enabledisableDark = () => {
 
 }
 
+
+
 </script>
+
+<style>
+.nuxt-link-active {
+    font-weight: bold;
+    background-color: red;
+}
+
+</style>

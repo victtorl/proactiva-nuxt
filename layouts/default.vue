@@ -13,6 +13,7 @@
 </template>
 <script setup>
 import HeaderBase from '~/components/HeaderBase.vue'
+import FooterBase from '~/components/FooterBase.vue';
 
 
 

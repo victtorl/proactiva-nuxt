@@ -1,14 +1,17 @@
 <template>
 
-    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px] lg:pt-0">
+    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px] fonr lg:pt-0">
         <div class="flex flex-col lg:flex-row justify-between ">
             <div class="flex flex-col lg:w-[50%]  ">
-                <h1 class="text-5xl 2xl:text-6xl 3xl:text-6xl font-semibold pb-4">
-                    Contactoxd
+                <h1 class="text-5xl 2xl:text-6xl 3xl:text-6xl pb-4">
+                    Contácto
                 </h1>
                 <h4 class="xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] italic font-semibold">Por favor complete el siguiente formulario para enviarnos un email.</h4>
                 <p class="xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] text-justify py-4">
-                    ¡Bienvenido a Proactiva, donde la excelencia se encuentra con la acción proactiva! Estamos emocionados de recibir tus consultas, comentarios o sugerencias a través de nuestro formulario de contacto.  Completa el formulario con tus detalles y necesidades, y nuestro equipo altamente capacitado se pondrá en contacto contigo prontamente.
+                    ¡Bienvenido a Proactiva, donde la excelencia se encuentra con la acción proactiva! 
+                    Estamos emocionados de recibir tus consultas, comentarios o sugerencias a través de 
+                    nuestro formulario de contacto.  Completa el formulario con tus detalles y necesidades, 
+                    y nuestro equipo altamente capacitado se pondrá en contacto contigo prontamente.
 
                 </p>
                 <h5 class="xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] font-bold">E-mail:</h5>
@@ -16,7 +19,7 @@
             </div>
 
             <!-- FORMULARIO -->
-            <div class="flex flex-col  lg:w-[45%]">
+            <!-- <div class="flex flex-col  lg:w-[45%]">
                 <input type="text" placeholder="Nombre" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
                 <input type="text" placeholder="Celular" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
                 <input type="text" placeholder="Correo" class="outline outline-transparent mb-4 bg-[#d1c8c1] py-4 px-4 placeholder:text-[#000000] placeholder:font-bold">
@@ -28,7 +31,35 @@
                     ENVIAR
                 </button>
                 </div>
+            </div> -->
+
+            <form action="https://fabform.io/f/{form-id}" method="post">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+        <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6">Contact Us</h1> -->
+        <form action="#" method="post">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+                <input type="text" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="John Doe" required>
             </div>
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Celular</label>
+                <input type="number" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="+51" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Correo</label>
+                <input type="email" id="email" name="email" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="johndoe@example.com" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+                <textarea id="message" name="message" class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="bg-indigo-500 text-white p-2 rounded-lg font-semibold w-full hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">Send</button>
+        </form>
+        <div class="mt-4 text-sm text-gray-600">
+            If you prefer not to use web forms, you can reveal our email address on <a href="https://veilmail.io/irish-geoff" class="underline" target="_blank">veilmail.io/irish-geoff</a>.
+        </div>
+    </div>
+    </form>
 
         </div>
 
