@@ -11,7 +11,7 @@
                     ¡Bienvenido a Proactiva, donde la excelencia se encuentra con la acción proactiva! 
                     Estamos emocionados de recibir tus consultas, comentarios o sugerencias a través de 
                     nuestro formulario de contacto.  Completa el formulario con tus detalles y necesidades, 
-                    y nuestro equipo altamente capacitado se pondrá en contacto contigo prontamente.demo2
+                    y nuestro equipo altamente capacitado se pondrá en contacto contigo prontamente.
 
                 </p>
                 <h5 class="xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] font-bold">E-mail:</h5>
@@ -39,7 +39,7 @@
         <div  method="post">
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
-                <input type="text" id="name" v-model="state.name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="John Doe" required>
+                <input type="text" id="name" v-model="state.name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="" required>
                 <div class="c-message-error text-xs   text-red-600 "
                   v-for="error of v$.name.$errors" :key="error.$uid">
                   <span>{{ error.$message }}</span>
@@ -55,7 +55,7 @@
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-sm font-medium text-gray-700">Correo</label>
-                <input type="email" id="email" v-model="state.email" name="email" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="johndoe@example.com" required>
+                <input type="email" id="email" v-model="state.email" name="email" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="" required>
                <div class="c-message-error text-xs   text-red-600 "
                   v-for="error of v$.email.$errors" :key="error.$uid">
                   <span>{{ error.$message }}</span>
@@ -63,7 +63,7 @@
             </div>
             <div class="mb-4">
                 <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
-                <textarea id="message" name="message" v-model="state.message" class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your message" required></textarea>
+                <textarea id="message" name="message" v-model="state.message" class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Escriba su mensaje" required></textarea>
                 <div class="c-message-error text-xs   text-red-600 "
                   v-for="error of v$.message.$errors" :key="error.$uid">
                   <span>{{ error.$message }}</span>
