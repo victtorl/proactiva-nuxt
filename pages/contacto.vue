@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px] fonr lg:pt-0">
+    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px] fonr lg:pt-0 text-paragraph">
         <div class="flex flex-col lg:flex-row justify-between ">
             <div class="flex flex-col lg:w-[50%]  ">
                 <h1 class="text-5xl 2xl:text-6xl 3xl:text-6xl pb-4">
@@ -39,24 +39,24 @@
         <form action="#" method="post">
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
-                <input type="text" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="John Doe" required>
+                <input type="text" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="John Doe" required>
             </div>
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Celular</label>
-                <input type="number" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="+51" required>
+                <input type="number" id="name" name="name" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="+51" required>
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-sm font-medium text-gray-700">Correo</label>
-                <input type="email" id="email" name="email" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="johndoe@example.com" required>
+                <input type="email" id="email" name="email" class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="johndoe@example.com" required>
             </div>
             <div class="mb-4">
                 <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
-                <textarea id="message" name="message" class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your message" required></textarea>
+                <textarea id="message" name="message" class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your message" required></textarea>
             </div>
-            <button type="submit" class="bg-indigo-500 text-white p-2 rounded-lg font-semibold w-full hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">Send</button>
+            <button type="submit" class="bg-primary text-white p-2 rounded-lg font-semibold w-full hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-100">Enviar</button>
         </form>
         <div class="mt-4 text-sm text-gray-600">
-            If you prefer not to use web forms, you can reveal our email address on <a href="https://veilmail.io/irish-geoff" class="underline" target="_blank">veilmail.io/irish-geoff</a>.
+            Si prefiere no utilizar formularios web, puede enviarnos sus consultas a nuestra dirección de correo electrónico: <a href="https://veilmail.io/irish-geoff" class="underline" target="_blank">grupoproactivaperu@gmail.com</a>.
         </div>
     </div>
     </form>

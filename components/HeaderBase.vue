@@ -18,42 +18,57 @@
                 
             <div class="hidden md:flex space-x-6">
                 <NuxtLink to="/" >
-                    <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Home</a>
+                    <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Home</a>
                 </NuxtLink>
                  <NuxtLink to="/nosotros">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Nosotros</a>
+                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Nosotros</a>
                  </NuxtLink>
                  <NuxtLink to="/servicios">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Servicios</a>
+                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Servicios</a>
                  </NuxtLink>
                  <NuxtLink to="/tienda">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Tienda</a>
+                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Tienda</a>
                  </NuxtLink>
                  <NuxtLink to="/contacto">
-                     <a  class="nav-link text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Contácto</a>
+                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Contácto</a>
                  </NuxtLink>
             </div>
-            <div class="hidden md:flex items-center space-x-4">
-                <button id="darkModeToggle" class="text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white focus:outline-none transition-colors duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                    </svg>
-                </button>
-                <a href="#" class="bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300">Sign Up</a>
-            </div>
-            <button id="mobileMenuButton" class="md:hidden text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white focus:outline-none transition-colors duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+
+
+            <NuxtLink to="/contacto">
+              <div 
+               @click="goToInicio"
+              class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue ">
+                <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
+                  Contáctanos
+                </span>
+                <svg
+                  class="relative z-10"
+                  width="7"
+                  height="12"
+                  viewBox="0 0 7 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="transition-all duration-300 group-hover:stroke-it-blue stroke-white"
+                    d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                    stroke="white"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
-            </button>
+              </div>
+            </NuxtLink>
         </nav>
         <div id="mobileMenu" class="mobile-menu md:hidden bg-white dark:bg-gray-800 shadow-lg absolute w-full left-0 transform -translate-y-full opacity-0">
             <div class="container mx-auto px-4 py-4 space-y-4">
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Home</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">About</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Services</a>
-                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-indigo-800 dark:hover:text-white transition-colors duration-300">Contact</a>
-                <a href="#" class="inline-block bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-blue-900 transition-colors duration-300">Sign Up</a>
+                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-primary/20 dark:hover:text-white transition-colors duration-300">Home</a>
+                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-primary/20 dark:hover:text-white transition-colors duration-300">About</a>
+                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-primary/20 dark:hover:text-white transition-colors duration-300">Services</a>
+                <a href="#" class="block text-gray-700 dark:text-gray-200 hover:text-primary/20 dark:hover:text-white transition-colors duration-300">Contact</a>
+                <a href="#" class="inline-block bg-indigo-800 text-white px-4 py-2 rounded-lg hover:bg-primary/20 transition-colors duration-300">Sign Up</a>
             </div>
         </div>
     </header>

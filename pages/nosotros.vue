@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-7 lg:mx-24 h-[100%] pt-[36px] lg:pt-0">
+    <div class="mx-7 lg:mx-24 h-[100%] pt-[36px] lg:pt-0 text-paragraph">
 
 
         <div class="w-full flex flex-col lg:flex-row pb-16 pt-10">

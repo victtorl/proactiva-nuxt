@@ -1,6 +1,6 @@
 <template>
-     <footer class="pt-20 bg-black px-6 xl:px-6">
-      <div class="flex flex-wrap justify-between gap-5 mx-auto mb-20 theme-container">
+     <footer class="pt-20 bg-black px-6 xl:px-0">
+      <div class="flex flex-wrap justify-between gap-5  mb-20 theme-container">
         <div class="w-fit max-w-[300px]  flex  flex-col justify-between">
           <img src="~/assets/landing-imgs/logoprincipal.png"  class="w-28  "alt="logo" />
           <!-- <p class="max-w-[300px] text-white/55 my-6">
@@ -184,7 +184,7 @@
             Escribenos y te atenderemos de inmediato
           </p>
           <NuxtLink to="/contacto">
-              <!-- <div 
+              <div 
                @click="goToInicio"
               class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue mt-6">
                 <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
@@ -207,25 +207,25 @@
                     strokeLinejoin="round"
                   />
                 </svg>
-              </div> -->
+              </div>
 
-              <button class="relative border-2 border-primary text-white px-6 py-3 rounded-lg overflow-hidden group">
+              <!-- <button class="relative border-2 border-primary text-white px-6 py-3 rounded-lg overflow-hidden group">
                     <span class="absolute inset-0 bg-primary/50 transform -translate-x-full group-hover:translate-x-0 transition duration-300"></span>
                     <span class="relative z-10 group-hover:text-white">
                         Contáctanos
                     </span>
-                </button>
+                </button> -->
                 
             </NuxtLink>
         
         </div>
       </div>
-      <div class="w-full h-[150px] sm:[80px] md:h-[65px] bg-it-black">
+      <div class="w-full h-[150px] sm:[80px] md:h-[65px] bg-primary/20">
         <div class="h-full mx-auto border-t theme-container border-white/10">
           <div class="flex flex-wrap items-center justify-between w-full h-full">
             <span class="text-white/50 max-w-80">
               2025 © derechos reservados 
-              <b class="text-white">VicttorlDev</b>
+              <b class="text-white">victtorl</b>
             </span>
             <div class="relative flex justify-center w-full sm:w-fit">
               <a
@@ -245,8 +245,8 @@
                       cx="27.5"
                       cy="27.5"
                       r="26"
-                      fill="#5A2881"
-                      stroke="#150D21"
+                      fill="#86654b"
+                      stroke="#86654b"
                       strokeWidth="3"
                     />
                     <path

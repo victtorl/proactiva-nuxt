@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pb-10 pt-[36px]  lg:pt-0">
+    <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pb-10 pt-[36px]  lg:pt-0 text-paragraph">
         <div class="w-full flex flex-col items-center text-justify lg:text-center" >
         <h1 class="pt-8  text-2xl xl:text-[45px] 2xl:text-[50px] 3xl:text-[56px]">PROACTIVASHOP</h1>
 
