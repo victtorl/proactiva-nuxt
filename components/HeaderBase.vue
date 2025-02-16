@@ -128,27 +128,17 @@
                                         </div>
                                     </div>
 
-                                    <div class=" w-64 h-16  flex items-center justify-center absolute bottom-0 right-0">
+                                    <!-- <div class=" w-64 h-16  flex items-center justify-center absolute bottom-0 right-0">
                                         <button class="flex flex-row items-center"  @click="enabledisableDark" >
                                            <img class="w-6"  :src=!isDark?iconmoon:iconsun  />
                                         </button>
-                                    </div>
+                                    </div> -->
                                 </span>
                             </div>
                         </div>
                         <!-- Navbar content mobile && desktop -->
                         <nav class="mx-auto flex  bg-primary py-2 lg:py-0   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
-                            <!-- Boton sandwich -->
-                            <div class="flex lg:hidden"  @click="toogleSidebar">
-                                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="boton1">
-                                    <span class="sr-only">Open main menu</span>
-                                    <svg class="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" class="text-white" />
-                                    </svg>
-                                </button>
-                            </div>
+                      
                             <!-- items nav mobile -->
                             <div class=" flex lg:hidden lg:flex-row  items-center justify-end  p-3  w-full">
                                 <a href="/" class="-m-1.5 p-1.5">
@@ -158,6 +148,17 @@
       
                                 </a>
                                 
+                            </div>
+                                  <!-- Boton sandwich -->
+                                  <div class="flex lg:hidden"  @click="toogleSidebar">
+                                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="boton1">
+                                    <span class="sr-only">Open main menu</span>
+                                    <svg class="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                        aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" class="text-white" />
+                                    </svg>
+                                </button>
                             </div>
                             <!-- items nav desktop -->
                             

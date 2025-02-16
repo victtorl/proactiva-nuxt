@@ -34,7 +34,7 @@
             </div> -->
 
             <form action="https://fabform.io/f/{form-id}" method="post">
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+    <div class="bg-white p-8 rounded-lg shadow-lg  lg:max-w-md w-full">
         <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6">Contact Us</h1> -->
         <form action="#" method="post">
             <div class="mb-4">
