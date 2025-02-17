@@ -17,21 +17,21 @@
             </nuxt-link>
                 
             <div class="hidden md:flex space-x-6">
-                <NuxtLink to="/" >
-                    <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Home</a>
+                <NuxtLink to="/" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary" >
+                    <a>Inicio</a>
                 </NuxtLink>
-                 <NuxtLink to="/nosotros">
-                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Nosotros</a>
+                 <NuxtLink to="/nosotros" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
+                     <a>Nosotros</a>
                  </NuxtLink>
-                 <NuxtLink to="/servicios">
-                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Servicios</a>
+                 <NuxtLink to="/servicios" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
+                     <a>Servicios</a>
                  </NuxtLink>
-                 <NuxtLink to="/tienda">
-                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Tienda</a>
+                 <NuxtLink to="/tienda" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
+                     <a >Tienda</a>
                  </NuxtLink>
-                 <NuxtLink to="/contacto">
+                 <!-- <NuxtLink to="/contacto">
                      <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Contácto</a>
-                 </NuxtLink>
+                 </NuxtLink> -->
             </div>
 
 
