@@ -122,7 +122,7 @@ const sendToWhatsApp=()=> {
         peticionAppScriptForm()
       let message = `*Nombre: ${state.name}* \n *Teléfono: ${state.phone}* \n  *Correo: ${state.email}* \n *Mensaje: ${state.message}* \n \n`;
       const encodedMessage = encodeURIComponent(message);
-      const phoneNumber = "+51982043391"; // Número con código de país  // 
+      const phoneNumber = "+51989610665"; // Número con código de país  // 
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
       state.name=''
       state.phone=''

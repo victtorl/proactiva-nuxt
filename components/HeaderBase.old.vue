@@ -42,6 +42,7 @@
                 exact-active-class="font-bold text-primary">
                     <p>CONTACTO</p>
                 </NuxtLink>
+                
             </div>
         </div>
 

@@ -82,6 +82,9 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: ['nuxt-headlessui'],
+  headlessui: {
+    prefix: 'Headless'
+}
 }
 

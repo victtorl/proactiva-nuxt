@@ -1,5 +1,5 @@
 <template>
-     <footer class="pt-20 bg-black px-6 xl:px-0">
+     <footer class="pt-20 bg-paragraph px-6 xl:px-0">
       <div class="flex flex-wrap justify-between gap-5  mb-20 theme-container">
         <div class="w-fit max-w-[300px]  flex  flex-col justify-between">
           <img src="~/assets/landing-imgs/logoprincipal.png"  class="w-28  "alt="logo" />
@@ -162,7 +162,7 @@
             <h1 class="font-semibold text-white text-18">Dirección</h1>
             <div class="flex gap-2 items-center relative group font-medium text-white/50 hover:text-white hover:underline transition-all duration-300 mt-3.5">
               <span class="transition-all duration-300">
-                AV los cipreses 256
+                Calle Emilio Fernandez 160 Urb San ta Beatriz
               </span>
             </div>
             <h1 class="mt-6 font-semibold text-white text-18">Correo electrónico</h1>
@@ -174,7 +174,7 @@
             <h1 class="mt-6 font-semibold text-white text-18">Teléfono</h1>
             <div class="flex gap-2 items-center relative group font-medium text-white/50 hover:text-white hover:underline transition-all duration-300 mt-3.5">
               <span class="transition-all duration-300">
-                99999999
+                +51 989 610 665
               </span>
             </div>
 
