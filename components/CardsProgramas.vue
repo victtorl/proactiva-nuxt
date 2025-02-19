@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-24 sm:py-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Programas</h2>
+          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl" id="programastitle" >Programas</h2>
           <p class="mt-2 text-lg/8 text-gray-600">Conoce más acerca de nuestros programas.</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -48,15 +48,15 @@
   const posts = [
     {
       id: 1,
-      title: 'Clínica de Coaching "Poder Profesional"',
+      title: 'Programa Liderazgo y Empoderamiento Femenino',
       href: '#',
       description:
-        'Impulsa tu carrera con estrategias de alto impacto. Aprende a proyectar seguridad, potenciar tu liderazgo y destacar en cualquier entorno profesional. Diseñado para mujeres que buscan ascender, negociar con confianza y convertirse en referentes en su industria. ¡Es hora de desbloquear tu máximo potencial!',
+        'Brindar herramientas prácticas para que mujeres empresarias y profesionales fortalezcan su liderazgo, tomen decisiones con confianza y desarrollen una mentalidad de crecimiento que les permita superar desafíos y alcanzar sus metas con éxito.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Programa', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -67,15 +67,15 @@
     },
     {
       id: 2,
-      title: 'Clínica de Coaching "Emprende & Brilla"',
+      title: 'Programa Marca Personal para el Éxito',
       href: '#',
       description:
-        'Convierte tu pasión en un negocio exitoso con una mentalidad ganadora. Te guiamos paso a paso en estrategias para construir, posicionar y escalar tu emprendimiento con seguridad y visión. Domina la confianza, la gestión y la marca personal para destacar en el mercado. ¡Haz que tu negocio refleje tu grandeza!',
+        'Guiar a las participantes en la construcción de una marca personal sólida, alineada con sus valores y propósito, para destacar en su industria, generar oportunidades y fortalecer su posicionamiento profesional.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Programa', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -86,15 +86,15 @@
     },
     {
       id: 3,
-      title: 'Clínica de Coaching "Mentalidad Abundante"',
+      title: 'Programa de Comunicación y Posicionamiento de Marca Personal',
       href: '#',
       description:
-        'El éxito empieza en tu mente. Rompe con creencias limitantes y desarrolla una mentalidad poderosa que te ayude a atraer oportunidades y bienestar en todas las áreas de tu vida. Aprende técnicas para gestionar el estrés, mantener una actitud positiva y vivir en plenitud. ¡El cambio empieza hoy!',
+        'Potenciar las habilidades de comunicación estratégica y persuasiva, permitiendo a las participantes transmitir su mensaje con claridad, impacto y autenticidad, logrando una mayor visibilidad y reconocimiento en su sector.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Programa', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -105,15 +105,15 @@
     },
     {
       id: 4,
-      title: 'Clínica de Coaching "Marca Personal Imparable"',
+      title: 'Programa Emprendimientos con Propósito',
       href: '#',
       description:
-        'Diferénciate y haz que tu nombre sea sinónimo de éxito. Te ayudamos a construir una marca personal fuerte, auténtica y alineada con tus valores y objetivos. Aprende a destacar en redes, comunicar tu propuesta de valor y dejar una huella en tu industria. ¡Es momento de brillar con luz propia!',
+        'Ayudar a mujeres emprendedoras a diseñar y desarrollar negocios con un propósito claro, alineando sus valores con estrategias efectivas que les permitan generar impacto, sostenibilidad y crecimiento en sus proyectos.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Programa', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -124,15 +124,15 @@
     },
     {
       id: 5,
-      title: 'Clínica de Coaching "Finanzas Inteligentes"',
+      title: 'Programa Habilidades Blandas',
       href: '#',
       description:
-        'Haz que tu dinero trabaje para ti. Aprende a gestionar tus finanzas con estrategias prácticas que te permitan ahorrar, invertir y multiplicar tus ingresos sin estrés. Empodérate financieramente y toma el control de tu futuro económico con hábitos efectivos. ¡La libertad financiera está en tus manos!',
+        'Fortalecer competencias clave como la inteligencia emocional, la negociación, la gestión del tiempo y el trabajo en equipo, para mejorar el desempeño profesional y la capacidad de adaptación en entornos cambiantes.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Programa', href: '#' },
       author: {
         name: 'Michael Foster',
         role: 'Co-Founder / CTO',
@@ -141,120 +141,7 @@
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
-    {
-      id: 6,
-      title: 'Clínica de Coaching "Dominando tus Emociones"',
-      href: '#',
-      description:
-        'El éxito empieza con el autocontrol. Aprende a gestionar el estrés, la ansiedad y las emociones difíciles para tomar mejores decisiones en tu vida profesional y personal. Desarrolla inteligencia emocional, confianza y resiliencia para enfrentar cualquier desafío con éxito. ¡Empodérate desde adentro!',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    {
-      id: 7,
-      title: 'Clínica de Coaching "Liderazgo Femenino de Impacto"',
-      href: '#',
-      description:
-        'Convierte tu liderazgo en una ventaja competitiva. Aprende a dirigir equipos, tomar decisiones estratégicas y posicionarte como una líder influyente en tu entorno. Potencia tu seguridad, tu comunicación y tu visión para inspirar y transformar. ¡Es tu momento de liderar con poder!',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    {
-      id: 8,
-      title: 'Clínica de Coaching "Comunicación & Marca de Élite"',
-      href: '#',
-      description:
-        'Tu mensaje es tu poder. Aprende a comunicarte con claridad, seguridad y persuasión en cualquier escenario. Potencia tu presencia, expresión verbal y no verbal para impactar en reuniones, presentaciones y redes sociales. ¡Conviértete en una experta en influencia y posicionamiento!',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    {
-      id: 9,
-      title: 'Clínica de Coaching "Tiempo & Productividad Eficaz"',
-      href: '#',
-      description:
-        'Haz más en menos tiempo sin sacrificar tu bienestar. Aprende estrategias de gestión del tiempo, organización y productividad que te ayudarán a equilibrar tu vida profesional y personal. Libérate del caos, prioriza lo importante y alcanza tus metas con enfoque. ¡La clave está en tu agenda!',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    {
-      id: 10,
-      title: 'Clínica de Coaching "Hábitos de Éxito"',
-      href: '#',
-      description:
-        'Cambia tu rutina, cambia tu vida. Aprende a diseñar hábitos poderosos que te impulsen al éxito sin esfuerzo ni frustración. Descubre técnicas para desarrollar disciplina, motivación y constancia en cualquier meta que te propongas. ¡Los pequeños cambios generan grandes resultados!',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
-    {
-      id: 11,
-      title: 'Clínica de Coaching "Identidad & Estilo de Poder"',
-      href: '#',
-      description:
-        'Tu imagen habla antes que tú. Aprende a proyectar seguridad, elegancia y autenticidad a través de tu estilo personal. Descubre los secretos de la imagen profesional, la vestimenta estratégica y el branding personal para brillar en cualquier escenario. ¡Cuando te ves bien, te sientes imparable',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
+   
     // More posts...
   ]
   </script>

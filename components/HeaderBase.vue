@@ -44,12 +44,12 @@
                 </MenuButton>
             </div>
             <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
-              <MenuItems class="absolute right-0 left-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white py-1 ring-1 shadow-lg ring-black/5 focus:outline-hidden">
-                <MenuItem v-slot="{ active }">
-                  <a href="#" :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Programas</a>
+              <MenuItems class="absolute right-0 left-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white py-1 ring-1 shadow-lg ring-black/5 focus:outline-hidden cursor-pointer">
+                <MenuItem v-slot="{ active }" @click="goTo('programastitle')" >
+                  <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Programas</div>
                 </MenuItem>
-                <MenuItem v-slot="{ active }">
-                  <a href="#" :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</a>
+                <MenuItem v-slot="{ active }" @click="goTo('asesoriastitle')" >
+                  <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</div>
                 </MenuItem>
               </MenuItems>
             </transition>
@@ -250,6 +250,7 @@ let goServices=() => {
 
 
 import { useDark, useToggle } from '@vueuse/core';
+import { goTo } from '~/codesutils/utils'
 const isDark = useDark()
 const toggleDark = useToggle(isDark)
 
