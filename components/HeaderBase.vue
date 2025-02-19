@@ -1,8 +1,8 @@
 <template>
 
-<div class="bg-gradient-to-r   pb-20  " >
+<div class="bg-gradient-to-r   pb-24  " >
     <header class="bg-white dark:bg-gray-800 shadow-lg hidden lg:block fixed z-50 w-full ">
-        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <nav class="container mx-auto px-4 py-6 flex justify-between items-center">
             <!-- <a href="#" class="text-2xl font-bold text-indigo-800 dark:text-white transition-colors duration-300">
                 Logo
             </a> -->
@@ -26,9 +26,9 @@
                  <!-- <NuxtLink to="/servicios" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
                      <a>Servicios</a>
                  </NuxtLink> -->
-                 <NuxtLink to="/tienda" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
+                 <!-- <NuxtLink to="/tienda" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
                      <a >Tienda</a>
-                 </NuxtLink>
+                 </NuxtLink> -->
                  <!-- <NuxtLink to="/contacto">
                      <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Contácto</a>
                  </NuxtLink> -->

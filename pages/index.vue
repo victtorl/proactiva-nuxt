@@ -1,7 +1,7 @@
 <template>
   <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pt-[36px] lg:pt-0 ">
       <div class="w-full ">
-        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[50vh] mb-4 bg-blackgio  flex justify-center">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[65vh] mb-4 bg-blackgio  flex justify-center">
           <img :src="`${imagesbanner[currentIn].name}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
         </div>
 
@@ -9,7 +9,7 @@
      
       <div class="w-full flex flex-col xl:flex-row pb-16  ">
         <div class="pr-10 sm:pb-4 " >
-          <p class="text-paragraph mb-4  xl:text-[20px] 2xl:text-[24px] 3xl:text-[25px]  xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">
+          <p class="text-paragraph mb-4    xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
           <NuxtLink  to="/services" class="rounded-full px-4 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MÁS</NuxtLink>

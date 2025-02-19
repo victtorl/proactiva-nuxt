@@ -16,11 +16,11 @@
                 </h1>
                 
                 
-                <h2 class="text-colortextbold italic font-medium xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] xl:w-[600px]  2xl:w-[700px] 3xl:w-[770px] text-justify pb-2">
+                <h2 class="text-colortextbold italic font-medium  xl:w-[600px]  2xl:w-[700px] 3xl:w-[770px] text-justify pb-2">
                     Tu transformación comienza aquí y ahora. Descubre cómo puedes dar el primer paso hacia un cambio significativo en tu mentalidad y vivir una vida más positiva. Únete a Proactiva Perú y descubre el poder que reside dentro de ti.
                 </h2>
                 
-                <span class="font-normal  xl:text-[17px] 2xl:text-[20px] 3xl:text-[22px] font-montserrarR ">
+                <span class="font-normal   font-montserrarR ">
                 <div class=" xl:w-[600px] 2xl:w-[700px] 3xl:w-[770px] text-justify pb-3">
                     <h3>Misión</h3>
                     <p class="">
