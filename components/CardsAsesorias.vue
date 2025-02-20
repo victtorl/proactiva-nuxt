@@ -17,16 +17,16 @@
                 <a :href="post.category.href" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{ post.category.title }}</a>
               </div>
               <div class="group relative">
-                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600  h-12">
                   <a :href="post.href">
-                    <span class="absolute inset-0" />
+                    <span class="absolute inset-0 " />
                     {{ post.title }}
                   </a>
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ post.description }}</p>
               </div>
               <div class="relative mt-8 flex items-center gap-x-4">
-                <img :src="post.author.imageUrl" alt="" class="size-10 rounded-full bg-gray-100" />
+                <!-- <img :src="post.author.imageUrl" alt="" class="size-10 rounded-full bg-gray-100" />
                 <div class="text-sm/6">
                   <p class="font-semibold text-gray-900">
                     <a :href="post.author.href">
@@ -35,7 +35,30 @@
                     </a>
                   </p>
                   <p class="text-gray-600">{{ post.author.role }}</p>
-                </div>
+                </div> -->
+                <div 
+               @click="()=>{}"
+              class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue cursor-pointer">
+                <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
+                  Agregar al carrito
+                </span>
+                <svg 
+                viewBox="-10 0 42 24"
+                class="relative w-10 z-10"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+               
+                  <path 
+                  class="transition-all duration-300 group-hover:stroke-it-blue stroke-white"
+                  d="M7.2998 5H22L20 12H8.37675M21 16H9L7 3H4M4 8H2M5 11H2M6 14H2M10 20C10 20.5523 9.55228 21 9 21C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19C9.55228 19 10 19.4477 10 20ZM21 20C21 20.5523 20.5523 21 20 21C19.4477 21 19 20.5523 19 20C19 19.4477 19.4477 19 20 19C20.5523 19 21 19.4477 21 20Z"
+                   stroke="white"
+                    stroke-width="2" 
+                    stroke-linecap="round"
+                     stroke-linejoin="round">
+                    </path> 
+                  
+                </svg>
+
+              </div>
               </div>
             </div>
           </article>
@@ -48,7 +71,7 @@
   const posts = [
     {
       id: 1,
-      title: 'Clínica de Coaching "Poder Profesional"',
+      title: 'Clínica de Coaching Profesionales exitosos',
       href: '#',
       description:
         'Impulsa tu carrera con estrategias de alto impacto. Aprende a proyectar seguridad, potenciar tu liderazgo y destacar en cualquier entorno profesional. Diseñado para mujeres que buscan ascender, negociar con confianza y convertirse en referentes en su industria. ¡Es hora de desbloquear tu máximo potencial!',
@@ -57,13 +80,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 2,
@@ -76,13 +93,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 3,
@@ -95,13 +106,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 4,
@@ -114,13 +119,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 5,
@@ -133,13 +132,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 6,
@@ -152,13 +145,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 7,
@@ -171,13 +158,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 8,
@@ -190,13 +171,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 9,
@@ -209,13 +184,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 10,
@@ -228,13 +197,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 11,
@@ -247,13 +210,7 @@
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Asesoria', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     // More posts...
   ]

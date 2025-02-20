@@ -17,7 +17,7 @@
                 <a :href="post.category.href" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{ post.category.title }}</a>
               </div>
               <div class="group relative">
-                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 h-12 ">
                   <a :href="post.href">
                     <span class="absolute inset-0" />
                     {{ post.title }}
@@ -26,7 +26,7 @@
                 <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ post.description }}</p>
               </div>
               <div class="relative mt-8 flex items-center gap-x-4">
-                <img :src="post.author.imageUrl" alt="" class="size-10 rounded-full bg-gray-100" />
+                <!-- <img :src="post.author.imageUrl" alt="" class="size-10 rounded-full bg-gray-100" />
                 <div class="text-sm/6">
                   <p class="font-semibold text-gray-900">
                     <a :href="post.author.href">
@@ -35,7 +35,31 @@
                     </a>
                   </p>
                   <p class="text-gray-600">{{ post.author.role }}</p>
-                </div>
+                </div> -->
+                <div 
+               @click="()=>{}"
+              class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue cursor-pointer">
+                <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
+                  Agregar al carrito
+                </span>
+                <svg 
+                viewBox="-10 0 42 24"
+                class="relative w-10 z-10"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+               
+                  <path 
+                  class="transition-all duration-300 group-hover:stroke-it-blue stroke-white"
+                  d="M7.2998 5H22L20 12H8.37675M21 16H9L7 3H4M4 8H2M5 11H2M6 14H2M10 20C10 20.5523 9.55228 21 9 21C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19C9.55228 19 10 19.4477 10 20ZM21 20C21 20.5523 20.5523 21 20 21C19.4477 21 19 20.5523 19 20C19 19.4477 19.4477 19 20 19C20.5523 19 21 19.4477 21 20Z"
+                   stroke="white"
+                    stroke-width="2" 
+                    stroke-linecap="round"
+                     stroke-linejoin="round">
+                    </path> 
+                  
+                </svg>
+
+              </div>
+              
               </div>
             </div>
           </article>
@@ -51,95 +75,65 @@
       title: 'Programa Liderazgo y Empoderamiento Femenino',
       href: '#',
       description:
-        'Brindar herramientas prácticas para que mujeres empresarias y profesionales fortalezcan su liderazgo, tomen decisiones con confianza y desarrollen una mentalidad de crecimiento que les permita superar desafíos y alcanzar sus metas con éxito.',
+        'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Programa', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 2,
       title: 'Programa Marca Personal para el Éxito',
       href: '#',
       description:
-        'Guiar a las participantes en la construcción de una marca personal sólida, alineada con sus valores y propósito, para destacar en su industria, generar oportunidades y fortalecer su posicionamiento profesional.',
+        'Haz que tu nombre brille y conviértete en un referente en tu industria. Aprende a construir una marca personal auténtica, atrae oportunidades y diferenciarte con una propuesta única. ¡Tu marca es tu mejor carta de presentación, haz que el mundo la reconozca!',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Programa', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 3,
       title: 'Programa de Comunicación y Posicionamiento de Marca Personal',
       href: '#',
       description:
-        'Potenciar las habilidades de comunicación estratégica y persuasiva, permitiendo a las participantes transmitir su mensaje con claridad, impacto y autenticidad, logrando una mayor visibilidad y reconocimiento en su sector.',
+        'Domina la comunicación estratégica para transmitir tu mensaje con impacto y persuasión. Fortalece tu presencia en redes y eventos, posicionándote como una experta en tu sector. ¡Tu voz es tu poder, úsala para crecer y dejar huella!',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Programa', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 4,
       title: 'Programa Emprendimientos con Propósito',
       href: '#',
       description:
-        'Ayudar a mujeres emprendedoras a diseñar y desarrollar negocios con un propósito claro, alineando sus valores con estrategias efectivas que les permitan generar impacto, sostenibilidad y crecimiento en sus proyectos.',
+        'Crea un negocio alineado con tu pasión y valores, atrayendo clientes que realmente valoren lo que ofreces. Aprende estrategias efectivas para consolidar un emprendimiento rentable y con impacto. ¡Emprende con propósito y haz crecer tu éxito!',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Programa', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
     {
       id: 5,
       title: 'Programa Habilidades Blandas',
       href: '#',
       description:
-        'Fortalecer competencias clave como la inteligencia emocional, la negociación, la gestión del tiempo y el trabajo en equipo, para mejorar el desempeño profesional y la capacidad de adaptación en entornos cambiantes.',
+        'Desarrolla inteligencia emocional, mejora tu negociación y fortalece tu confianza para destacar en cualquier entorno. Aprende a gestionar tu tiempo, manejar el estrés y potenciar tu productividad. ¡Las habilidades clave para triunfar están en tus manos!',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Programa', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+       
     },
    
     // More posts...
