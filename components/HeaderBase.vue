@@ -124,10 +124,30 @@
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconIniit.svg" alt="Logo"> -->
                                                     NOSOTROS
                                                 </a>
-                                                <a href="/servicios" class=" flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50"> 
-                                                    <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images//SidebarIconMyAcount.svg" alt="Logo"> -->
+                                                <!-- <a href="/services" class=" flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50"> 
+                                                    
                                                     SERVICIOS
-                                                </a>
+                                                </a> -->
+                                                     <Menu as="div" class="relative ml-3">
+                                                        <div>
+                                                            <MenuButton  >
+                                                                <div @click="goServices()" class="z-20 " active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary" >
+                                                                    Servicios
+                                                                </div>
+                                                                <!-- <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" /> -->
+                                                            </MenuButton>
+                                                        </div>
+                                                        <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+                                                        <MenuItems class="absolute right-0 left-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white py-1 ring-1 shadow-lg ring-black/5 focus:outline-hidden cursor-pointer">
+                                                            <MenuItem v-slot="{ active }" @click="goTo('programastitle')" >
+                                                            <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Programas</div>
+                                                            </MenuItem>
+                                                            <MenuItem v-slot="{ active }" @click="goTo('asesoriastitle')" >
+                                                            <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</div>
+                                                            </MenuItem>
+                                                        </MenuItems>
+                                                        </transition>
+                                                    </Menu>
                                                 <a href="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconSearch.svg" alt="Logo"> -->
                                                     TIENDA VIRTUAL
