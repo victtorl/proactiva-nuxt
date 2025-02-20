@@ -25,7 +25,7 @@
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ post.description }}</p>
               </div>
-              <div class="relative mt-8 flex items-center gap-x-4">
+              <div class="relative mt-8 flex flex-col sm:flex-row gap-y-4 items-center justify-between gap-x-4">
                 <!-- <img :src="post.author.imageUrl" alt="" class="size-10 rounded-full bg-gray-100" />
                 <div class="text-sm/6">
                   <p class="font-semibold text-gray-900">
@@ -39,9 +39,7 @@
                 <div 
                @click="()=>{}"
               class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue cursor-pointer">
-                <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
-                  Agregar al carrito
-                </span>
+                
                 <svg 
                 viewBox="-10 0 42 24"
                 class="relative w-10 z-10"
@@ -57,8 +55,36 @@
                     </path> 
                   
                 </svg>
+                <span class="relative z-10 text-xs sm:text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
+                  Agregar al carrito
+                </span>
 
               </div>
+
+              <div class="">
+                    <div type="button" 
+                        class="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 text-xs outline-none bg-transparent rounded-md">
+
+                        <span @click="()=>{}" class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 fill-current" viewBox="0 0 124 124">
+                            <path d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+                            data-original="#000000"></path>
+                        </svg>
+                        </span>
+
+                        <span class="mx-2.5"> {{ 6 }}</span>
+
+                        <span @click="()=>{}" class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 fill-current" viewBox="0 0 42 42">
+                            <path
+                            d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+                            data-original="#000000"></path>
+                        </svg>
+                        </span>
+
+                    </div>
+                </div>
+              
               </div>
             </div>
           </article>

@@ -11,6 +11,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@nuxt/ui": "2.21.0",
     "@pinia/nuxt": "^0.5.4",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
@@ -27,5 +28,6 @@
     "nuxt-headlessui": "^1.2.0",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.11"
-  }
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
