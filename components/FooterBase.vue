@@ -264,11 +264,11 @@
             </div>
             <ul class="flex flex-col sm:flex-row items-start sm:items-center sm:space-x-3 max-w-80 md:space-x-6">
               <li class="font-medium hover:text-white hover:underline common-transition text-paragraph">
-                <NuxtLink to="politcas-y-privacidad"  >Politicas de privacidad</NuxtLink>
+                <NuxtLink to="/"  >Politicas de privacidad</NuxtLink>
               </li>
               <li class="font-medium text-paragraph hidden sm:block">|</li>
               <li class="font-medium hover:text-white hover:underline common-transition text-paragraph">
-                <NuxtLink to="terminos-y-condiciones">Terminos & C</NuxtLink>
+                <NuxtLink to="/">Terminos & C</NuxtLink>
               </li>
             </ul>
           </div>

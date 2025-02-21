@@ -34,7 +34,8 @@
         :date="item.date"
         :price="item.price"
         :defImageurl="item.defImageurl" 
-        :quantity="item.quantity" 
+        :quantity="item.quantity"
+        :item="item"
         v-for="item in programas" />
 
         </div>
@@ -59,7 +60,8 @@
         :date="item.date"
         :price="item.price"
         :defImageurl="item.defImageurl" 
-        :quantity="item.quantity" 
+        :quantity="item.quantity"
+        :item="item"
         v-for="item in asesorias" />
 
         </div>
@@ -200,7 +202,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -220,7 +222,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -240,7 +242,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -260,7 +262,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -280,7 +282,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -300,7 +302,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -320,7 +322,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -340,7 +342,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -360,7 +362,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -380,7 +382,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     {
@@ -400,7 +402,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
-      category: { title: 'Asesoria', href: '#' },
+      category: { name: 'Asesoria', href: '#' },
        
     },
     // More posts...

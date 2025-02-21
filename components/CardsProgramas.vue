@@ -1,6 +1,6 @@
 <template>
   <div class="">
-          <article  :key="props.id" class="flex flex-col items-start justify-between">
+          <article  :key="props.id" class="flex flex-col items-start justify-between" >
             <div class="relative w-full">
               <img :src="props.defImageurl" alt="" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
               <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
@@ -11,12 +11,12 @@
                 <time :datetime="props.datetime" class="text-gray-500">{{ props.date }}</time>
                 <a :href="props.category.href" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{ props.category.name }}</a>
               </div>
-              <div class="group relative">
+              <div class="group relative z-20 " >
                 <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 h-12 ">
-                  <a :href="props.href">
-                    <span class="absolute inset-0" />
+                  <NuxtLink :to="`/services/${props.nombre}`" >
+                    <span class="absolute inset-0" @click="llenarDetalleProducto(props.item)" />
                     {{ props.nombre }}
-                  </a>
+                  </NuxtLink>
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ props.description }}</p>
               </div>
@@ -215,6 +215,8 @@
 
 <script setup>
 
+
+
 const detailST = useDetailProduct()
 
 const estadomodal = ref(false)
@@ -239,7 +241,8 @@ const props = defineProps({
   defImageurl: String,
   author:Object,
   datetime:Date,
-  date:Date
+  date:Date,
+  item:Object
 })
 
 
@@ -309,11 +312,8 @@ function sendItemsToCart(idcart) {
 
 
 
-const llenarDetalleProducto = (idprod) => {
-  const prodST = useProductStore()
-  const aux = prodST.groupProducts.filter(u => u.id == idprod)
-  detailST.llenarDatos(aux[0])
-
+const llenarDetalleProducto = (item) => {
+  detailST.llenarDatos(item)
 }
 
 const ofertaCaduca=(isofert) => {
