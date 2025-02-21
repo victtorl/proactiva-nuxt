@@ -79,7 +79,7 @@
 
 const programas = [
     {
-      id: 1,
+      id: '8tk41vertyt629in0kx4jvqtitzyx6',
       name: 'Programa Liderazgo y Empoderamiento Femenino',
       href: '#', price:0,
       description:
@@ -99,7 +99,7 @@ const programas = [
        
     },
     {
-      id: 2,
+      id: '4yv0kxqk91cc79hif39fifzxgpn3gq',
       name: 'Programa Marca Personal para el Éxito',
       href: '#', price:0,
       description:
@@ -119,7 +119,7 @@ const programas = [
        
     },
     {
-      id: 3,
+      id: '8hi4pgfrw4tmzuvce8uwdrxnw5b610',
       name: 'Programa de Comunicación y Posicionamiento de Marca Personal',
       href: '#', price:0,
       description:
@@ -139,7 +139,7 @@ const programas = [
        
     },
     {
-      id: 4,
+      id: 'imuvf5mgnjvzx4idjedncn47u3rehm',
       name: 'Programa Emprendimientos con Propósito',
       href: '#', price:0,
       description:
@@ -159,7 +159,7 @@ const programas = [
        
     },
     {
-      id: 5,
+      id: '8c508877450tkw7uyu0pcecif6h6c9',
       name: 'Programa Habilidades Blandas',
       href: '#', price:0,
       description:
@@ -186,7 +186,7 @@ const programas = [
 
   const asesorias = [
     {
-      id: 1,
+      id: 'ctjz0hf8gp9rerzytwv9vq7f9w0fyt',
       name: 'Clínica de Coaching Profesionales exitosos',
       href: '#',price:0,
       description:
@@ -206,7 +206,7 @@ const programas = [
        
     },
     {
-      id: 2,
+      id: 'vh1j4zugwyzwcz6vz4xy8mfizvbkmt',
       name: 'Clínica de Coaching "Emprende & Brilla"',
       href: '#',price:0,
       description:
@@ -226,7 +226,7 @@ const programas = [
        
     },
     {
-      id: 3,
+      id: 'zit4fdiqyvx62q0dv8pt5mbv0nizix',
       name: 'Clínica de Coaching "Mentalidad Abundante"',
       href: '#',price:0,
       description:
@@ -246,7 +246,7 @@ const programas = [
        
     },
     {
-      id: 4,
+      id: 'ph9090m4xkcd3p61tk12v1hbj1wgu4',
       name: 'Clínica de Coaching "Marca Personal Imparable"',
       href: '#',price:0,
       description:
@@ -266,7 +266,7 @@ const programas = [
        
     },
     {
-      id: 5,
+      id: '119m1rned153ubx92nyygih8zk2j5g',
       name: 'Clínica de Coaching "Finanzas Inteligentes"',
       href: '#',price:0,
       description:
@@ -286,7 +286,7 @@ const programas = [
        
     },
     {
-      id: 6,
+      id: '2nrjmx2rhe4y8mt8xh31v9360i31n4',
       name: 'Clínica de Coaching "Dominando tus Emociones"',
       href: '#',price:0,
       description:
@@ -306,7 +306,7 @@ const programas = [
        
     },
     {
-      id: 7,
+      id: 'dhqdgbcyz91eaqpmagxyfdi25uu45z',
       name: 'Clínica de Coaching "Liderazgo Femenino de Impacto"',
       href: '#',price:0,
       description:
@@ -326,7 +326,7 @@ const programas = [
        
     },
     {
-      id: 8,
+      id: '9i77xqh1cpkr79acxp4wvg75racg52',
       name: 'Clínica de Coaching "Comunicación & Marca de Élite"',
       href: '#',price:0,
       description:
@@ -346,7 +346,7 @@ const programas = [
        
     },
     {
-      id: 9,
+      id: 'xq8ynmtkej3ypg8j240n3p4afz221t',
       name: 'Clínica de Coaching "Tiempo & Productividad Eficaz"',
       href: '#',price:0,
       description:
@@ -366,7 +366,7 @@ const programas = [
        
     },
     {
-      id: 10,
+      id: '25eq35bx9p5r893igqzdgq72721aja',
       name: 'Clínica de Coaching "Hábitos de Éxito"',
       href: '#',price:0,
       description:
@@ -386,7 +386,7 @@ const programas = [
        
     },
     {
-      id: 11,
+      id: 'c5rjhg5aw541f0akwv9vvnfivcjf8b',
       name: 'Clínica de Coaching "Identidad & Estilo de Poder"',
       href: '#',price:0,
       description:
