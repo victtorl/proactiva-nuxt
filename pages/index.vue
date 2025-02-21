@@ -30,7 +30,7 @@
 
 </template>
 
-<script setup lang="ts">
+<script setup >
 
 import img1 from '~/assets/landing-imgs/itemhome1.png'
 import img2 from '~/assets/landing-imgs/itemhome2.jpg'

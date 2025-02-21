@@ -37,7 +37,7 @@
                   <p class="text-gray-600">{{ post.author.role }}</p>
                 </div> -->
                 <div 
-               @click="()=>{}"
+               @click=""
               class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue cursor-pointer">
                 
                 <svg 
