@@ -2,7 +2,7 @@
   <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pt-[36px] lg:pt-0 ">
       <div class="w-full ">
         <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[65vh] mb-4 bg-blackgio  flex justify-center">
-          <img :src="`${imagesbanner[currentIn].name}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
+          <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
         </div>
 
       </div>
