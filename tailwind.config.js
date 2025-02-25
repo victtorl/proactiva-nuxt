@@ -39,7 +39,8 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       colors:{
-        primary:'#86654b',
+        primary:'#86654B',
+        primarymobil:'#86654b',
         limaverdeoscuro:"#002E3B",
         limaverdesuave:"#017263",
         limaverdeclaro:"#2EB15D",

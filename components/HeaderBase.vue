@@ -97,7 +97,7 @@
     </header>
 
       <!-- header mobile -->
-      <header class=" bg-primary   sticky top-0 z-50  ">
+      <header class=" bg-primary    fixed w-full top-0 z-50   ">
                         <!-- Sidebar mobile -->
                         <div  v-if="!showsidebar"  class="lg:hidden bg-primary  movile-header " role="dialog" aria-modal="true" id="mobile-header">            
                             <div class="fixed inset-0 z-10  bg-slate-700 bg-opacity-50  dark:bg-slate-300 dark:bg-opacity-25" @click="toogleSidebar" id="boton2"></div>
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                         <!-- Navbar content mobile && desktop -->
-                        <nav class="mx-auto flex  bg-primary py-2 lg:py-0   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
+                        <nav class="mx-auto flex  bg-[#86654B] py-2 lg:py-0   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
                       
                             <!-- items nav mobile -->
                             <div class=" flex lg:hidden lg:flex-row  items-center justify-end  p-3  w-full">
