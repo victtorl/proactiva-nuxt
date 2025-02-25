@@ -106,7 +106,7 @@
                                     <div class="flex items-center justify-between   dark:bg-pflask">
                                         <NuxtLink @click="toogleSidebarInicio" to="/">
                                         <span  class="flex flex-row items-center justify-center  ">
-                                            <p class="text-white font-medium ">PROACTIVA</p>
+                                            <p class="text-white font-medium ">INICIO</p>
                                         </span>
                                         </NuxtLink>
                                         <!-- boton pantalla pequeña icono cerrara el menu -->
