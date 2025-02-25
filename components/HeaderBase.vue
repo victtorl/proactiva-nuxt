@@ -97,42 +97,43 @@
     </header>
 
       <!-- header mobile -->
-      <header class=" bg-primary    fixed w-full top-0 z-50   ">
+      <header class=" bg-[#86654B]    fixed w-full top-0 z-50   ">
                         <!-- Sidebar mobile -->
-                        <div  v-if="!showsidebar"  class="lg:hidden bg-primary  movile-header " role="dialog" aria-modal="true" id="mobile-header">            
+                        <div  v-if="!showsidebar"  class="lg:hidden  movile-header " role="dialog" aria-modal="true" id="mobile-header">            
                             <div class="fixed inset-0 z-10  bg-slate-700 bg-opacity-50  dark:bg-slate-300 dark:bg-opacity-25" @click="toogleSidebar" id="boton2"></div>
-                            <div class="fixed inset-y-0 left-0 z-10 w-[80vw]  bg-primary  overflow-y-auto bg-sidebarcolor dark:bg-secundarydark px-6 pt-3 sm:max-w-sm sm:ring-1  sm:ring-gray-900/10">
-                                <span class=" bg-primary  flex flex-col  w-full">
-                                    <div class="flex items-center justify-between bg-primary  dark:bg-pflask">
-                                        <a href="/">
+                            <div class="fixed inset-y-0 left-0 z-10 w-[80vw]  bg-[#86654B]  overflow-y-auto bg-sidebarcolor dark:bg-secundarydark px-6 pt-3 sm:max-w-sm sm:ring-1  sm:ring-gray-900/10">
+                                <span class="   flex flex-col  w-full">
+                                    <div class="flex items-center justify-between   dark:bg-pflask">
+                                        <NuxtLink @click="toogleSidebar" to="/">
                                         <span  class="flex flex-row items-center justify-center  ">
                                             <p class="text-white font-medium ">PROACTIVA</p>
                                         </span>
-                                        </a>
+                                        </NuxtLink>
                                         <!-- boton pantalla pequeña icono cerrara el menu -->
-                                        <a href="/">
+                                        <NuxtLink @click="toogleSidebar" href="/">
                                         <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" >
                                             <!-- <img class="h-9 w-auto " src="~/assets/icons/Logo.svg" alt="Logo"> -->
+                                            X
                                         </button>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                     
-                                    <div class="mt-6 flow-root     ">
-                                        <div class="mt-8">
+                                    <div class="mt-0 flow-root     ">
+                                        <div class="mt-6">
                                             <div class="grid grid-cols-1 gap-6 " >
-                                                <a href="/nosotros" class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                <NuxtLink @click="toogleSidebar" to="/nosotros" class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconIniit.svg" alt="Logo"> -->
                                                     NOSOTROS
-                                                </a>
+                                                </NuxtLink>
                                                 <!-- <a href="/services" class=" flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50"> 
                                                     
                                                     SERVICIOS
                                                 </a> -->
-                                                     <Menu as="div" class="relative ml-3">
+                                                     <Menu as="div" class="relative ">
                                                         <div>
                                                             <MenuButton  >
-                                                                <div @click="goServices()" class="z-20 " active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary" >
-                                                                    Servicios
+                                                                <div @click="goServices()" class="z-20 " active-class="nav-link text-white  hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary" >
+                                                                    <p class="text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50" >SERVICIOS</p>
                                                                 </div>
                                                                 <!-- <img class="size-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" /> -->
                                                             </MenuButton>
@@ -140,22 +141,22 @@
                                                         <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
                                                         <MenuItems class="absolute right-0 left-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white py-1 ring-1 shadow-lg ring-black/5 focus:outline-hidden cursor-pointer">
                                                             <MenuItem v-slot="{ active }" @click="goTo('programastitle')" >
-                                                            <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Programas</div>
+                                                            <div @click="toogleSidebar" :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Programas</div>
                                                             </MenuItem>
                                                             <MenuItem v-slot="{ active }" @click="goTo('asesoriastitle')" >
-                                                            <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</div>
+                                                            <div @click="toogleSidebar" :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</div>
                                                             </MenuItem>
                                                         </MenuItems>
                                                         </transition>
                                                     </Menu>
-                                                <a href="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                <NuxtLink @click="toogleSidebar" to="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconSearch.svg" alt="Logo"> -->
                                                     TIENDA VIRTUAL
-                                                </a>
-                                                <a href="/contacto"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                </NuxtLink>
+                                                <NuxtLink  @click="toogleSidebar" to="/contacto"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SIdebarIconComunidades.svg" alt="Logo"> -->
                                                      CONTACTO
-                                                </a>
+                                                </NuxtLink>
                                                 <!-- <a href="/app/explora/checkout"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconCart.svg" alt="Logo">
                                                    SOPORTE
