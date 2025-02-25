@@ -18,7 +18,7 @@
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
               <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20home%201%20ok.jpg?alt=media" alt=""  
               class=" object-cover py-4 lg:py-0
-              transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+              transform rounded-xl  
               " srcset="">
         </div>
 
@@ -29,14 +29,14 @@
       <div class="w-full   flex justify-center my-16" >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center centradoPgrande ">
 
-        <div  class="w-full px-4 flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+        <div  class="w-full  flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
               <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%202%20home%20ok.jpg?alt=media" alt=""  
               class=" object-cover py-4 lg:py-0
-              transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+              transform rounded-xl  w-full
               " srcset="">
         </div>
 
-        <div class="pr-10 sm:pb-4 px-4 flex flex-col justify-between items-center h-full " >
+        <div class="lg:pr-10 sm:pb-4 px-4 flex flex-col justify-between items-center h-full " >
           <p class="text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  ">
             Cuando creamos un nuevo destino en nuestra mente creamos un nuevo futuro en nuestra vida. 
           </p>
@@ -74,7 +74,7 @@
       </div>
 
       <div class="w-full flex justify-center " >
-        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl pt-24"  >
+        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl pt-12 lg:pt-24"  >
           Es momento de tomar acción y  decisiones clave, para convertirte en lideresa de tu vida.
         </p>
       </div>
@@ -82,44 +82,44 @@
       <div class="w-full   flex justify-center my-10 " >
       <div class=" grid grid-cols-1 md:gri-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-10 2xl:gap-x-4 items-center  centradoPgrande ">
 
-        <div class="lg:pr-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
-          <p class="text-xl font-bold text-paragraph" >Programas de empoderamiento</p>
-          <div  class="w-full flex flex-col md:flex-row py-4 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+        <div class="py-6 lg:py-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
+          <p class="text-xl font-bold  text-paragraph" >Programas de empoderamiento</p>
+          <div  class="w-full flex flex-col md:flex-row lg:py-2 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FProgramas%20de%20empoderamiento%20ok.jpg?alt=media" alt=""  
-                class=" object-cover py-4 lg:py-0
-                transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+                class=" object-cover 
+                transform  
                 " srcset="">
           </div>
-          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+          <p class="text-paragraph mb-4  text-center  w-full  h-full lg:h-20  flex justify-center items-center  ">
             Entrena tu mente, potencia tu liderazgo y empodérate para la toma de decisiones y realizar los cambios que necesitas.
           </p>
           <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
         </div>
 
-        <div class=" sm:pb-4 flex flex-col items-center justify-between  h-full " >
+        <div class="py-6 lg:py-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
           <p class="text-xl font-bold text-paragraph" >Mentorías & coaching</p>
-          <div  class="w-full flex flex-col md:flex-row py-4 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+          <div  class="w-full flex flex-col md:flex-row lg:py-2 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentor%C3%ADa%20y%20coaching%20ok.jpg?alt=media" alt=""  
-                class=" object-cover py-4 lg:py-0
-                transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+                class=" object-cover 
+                transform 
                 " srcset="">
           </div>
-          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+          <p class="text-paragraph mb-4  text-center  w-full  h-full lg:h-20  flex justify-center items-center  ">
             Recibe la guía y mentoría para el desarrollo de tu liderazgo  y cumple tus metas  personales y profesionales.
           </p>
           <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
         </div>
 
 
-        <div class=" sm:pb-4 flex flex-col items-center justify-between  h-full " >
+        <div class="py-6 lg:py-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
           <p class="text-xl font-bold text-paragraph" >Workshop new mindset</p>
-          <div  class="w-full flex flex-col md:flex-row py-4 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+          <div  class="w-full flex flex-col md:flex-row lg:py-2 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2Fworkshop%20new%20mindset%20ok.jpg?alt=media" alt=""  
-                class=" object-cover py-4 lg:py-0
-                transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+                class=" object-cover 
+                transform 
                 " srcset="">
           </div>
-          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+          <p class="text-paragraph mb-4  text-center  w-full  h-full  lg:h-20  flex justify-center items-center  ">
             Participa de nuestros eventos gratuitos y siente la energía del cambio que requieres hacer.
           </p>
           <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
