@@ -65,7 +65,7 @@
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
               <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20home%201%20ok.jpg?alt=media" alt=""  
               class=" object-cover py-4 lg:py-0
-              transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+              transform 
               " srcset="">
         </div>
 
@@ -130,12 +130,65 @@
       </div>
       </div>
 
-      <div class="w-full  flex justify-center " >
+      <div class="w-full  flex justify-center relative" >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentor%C3%ADa%20y%20coaching%20ok.jpg?alt=media" alt=""  
-                class=" object-cover w-[100vw]   3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0
+                class=" object-cover w-[100vw]   3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 brightness-50
                 
                 " srcset="">
+
+                <p class="absolute lg:right-6 text-center bottom-6  lg:text-xl font-bold text-white flex flex-col items-center gap-y-6">
+                  <span>¡Únete a nuestro club de aprendizaje  e intercambio de experiencias!</span>
+
+                  <span class="/n" >¡Junt@s podemos con todo!</span>
+                </p>
       </div>
+
+      <div class="w-full   flex justify-center my-8 " >
+      <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
+        <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-between  h-full " >
+          <p class="font-bold text-xl text-primary">Nuestra Misión</p>
+          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+            Ayudar a las personas a alcanzar sus sueños, metas y objetivos a través de la reprogramación de creencias limitantes, desarrollo de habilidades, la gestión de sus emociones y el empoderamiento para el cambio, aumentando su estado de bienestar, felciidad y calidad de vida.
+          </p>
+        </div>
+
+        <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20home%201%20ok.jpg?alt=media" alt=""  
+              class=" object-cover py-4 lg:py-0
+              transform 
+              " srcset="">
+        </div>
+
+        
+      </div>
+      </div>
+
+      <div class="w-full flex justify-center" >
+        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl"  >Valores</p>
+      </div>
+
+      <div class="w-full flex justify-center" >
+        <div class="centradoPgrande text-paragraph text-center"  >
+            <ul class="w-full grid grid-cols-2 lg:grid-cols-4" >
+              <li>*Proactividad</li>
+              <li>*Gratitud</li>
+              <li>*Espiritualidad</li>
+              <li>*Disciplina</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="w-full flex justify-center md:my-4 pb-4 lg:pb-0" >
+        <div class="centradoPgrande text-paragraph text-center"  >
+            <ul class="w-full grid grid-cols-2 lg:grid-cols-3" >
+              <li>*Responsabilidad</li>
+              <li>*Empatía</li>
+              <li>*Adaptación a los cambios</li>
+            </ul>
+        </div>
+      </div>
+
+      
       
 
 

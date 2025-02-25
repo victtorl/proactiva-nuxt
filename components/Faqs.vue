@@ -87,35 +87,26 @@
 
 const faqs = ref([
   {
-    question: "¿Cómo puedo agendar una consulta legal?",
+    question: "¿Cuánto dura un programa?",
     answer:
-      "Puede agendar una consulta fácilmente a través de nuestro formulario en la web, llamando a nuestro número de contacto o enviando un correo electrónico. Una vez recibamos su solicitud, confirmaremos la cita en el menor tiempo posible.",
+      "La duración de los programas varían según la temática. Existen programas de mínimo 6 meses, cada módulo dura 1 mes y medio.",
   },
   {
-    question: "¿Cuánto tiempo lleva resolver un caso?",
+    question: "¿Cuánto dura una asesoría en coaching y mentoría?",
     answer:
-      "El tiempo varía según la complejidad y naturaleza del caso, además de los plazos establecidos por las instancias legales. Siempre le mantendremos informado sobre el avance.",
+      "La duración dependerá del diagnóstico que se realiza a la persona y del diseño  del plan de cambio trabajado en en conjunto con el cliente.",
   },
   {
-    question: "¿Qué documentos necesito para mi caso?",
+    question: "¿Cuánto dura una asesoría en coaching y mentoría?",
     answer:
-      "Los documentos necesarios dependen del tipo de caso. En la consulta inicial, le indicaremos los requisitos específicos para garantizar un manejo adecuado de su situación legal.",
+      "Los programas son presenciales, mientras que las asesorías de coaching y mentorías pueden ser presenciales o virtuales.",
   },
   {
-    question: "¿Atienden a empresas y persona?",
+    question: "¿Qué días son las clases de los programas, asesorías y mentorías?",
     answer:
-      "Sí, atendemos a empresas de todos los sectores económicos y también a personas naturales, tanto en el desarrollo de negocios como en sus derechos individuales.",
+      "Los programas son los sábados con una duración de tres horas y las asesorías y mentorías una vez a la semana a coordinar con una duración de 45 minutos presenciales o virtuales.",
   },
-  {
-    question: "¿Tienen servicio en línea?",
-    answer:
-      "Sí, contamos con un servicio de asesoría virtual para quienes prefieren o necesitan resolver dudas legales sin acudir físicamente a nuestras oficinas.",
-  },
-  {
-    question: "¿Cómo aseguran la confidencialidad?",
-    answer:
-      "Respetamos estrictamente las normativas de privacidad y confidencialidad. Toda la información proporcionada será protegida y utilizada exclusivamente para los fines relacionados con su caso.",
-  },
+  
   // Add more FAQ items here if needed
 ])
 
