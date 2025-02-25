@@ -81,7 +81,7 @@ const programas = [
     {
       id: '8tk41vertyt629in0kx4jvqtitzyx6',
       name: 'Programa Liderazgo y Empoderamiento Femenino',
-      href: '#', price:0,
+      href: '#', price:10,
       description:
         'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
       defImageurl:
@@ -101,7 +101,7 @@ const programas = [
     {
       id: '4yv0kxqk91cc79hif39fifzxgpn3gq',
       name: 'Programa Marca Personal para el Éxito',
-      href: '#', price:0,
+      href: '#', price:20,
       description:
         'Haz que tu nombre brille y conviértete en un referente en tu industria. Aprende a construir una marca personal auténtica, atrae oportunidades y diferenciarte con una propuesta única. ¡Tu marca es tu mejor carta de presentación, haz que el mundo la reconozca!',
       defImageurl:
@@ -122,7 +122,7 @@ const programas = [
     {
       id: '8hi4pgfrw4tmzuvce8uwdrxnw5b610',
       name: 'Programa de Comunicación y Posicionamiento de Marca Personal',
-      href: '#', price:0,
+      href: '#', price:50,
       description:
         'Domina la comunicación estratégica para transmitir tu mensaje con impacto y persuasión. Fortalece tu presencia en redes y eventos, posicionándote como una experta en tu sector. ¡Tu voz es tu poder, úsala para crecer y dejar huella!',
       defImageurl:
@@ -142,7 +142,7 @@ const programas = [
     {
       id: 'imuvf5mgnjvzx4idjedncn47u3rehm',
       name: 'Programa Emprendimientos con Propósito',
-      href: '#', price:0,
+      href: '#', price:20,
       description:
         'Crea un negocio alineado con tu pasión y valores, atrayendo clientes que realmente valoren lo que ofreces. Aprende estrategias efectivas para consolidar un emprendimiento rentable y con impacto. ¡Emprende con propósito y haz crecer tu éxito!',
       defImageurl:
@@ -162,7 +162,7 @@ const programas = [
     {
       id: '8c508877450tkw7uyu0pcecif6h6c9',
       name: 'Programa Habilidades Blandas',
-      href: '#', price:0,
+      href: '#', price:40,
       description:
         'Desarrolla inteligencia emocional, mejora tu negociación y fortalece tu confianza para destacar en cualquier entorno. Aprende a gestionar tu tiempo, manejar el estrés y potenciar tu productividad. ¡Las habilidades clave para triunfar están en tus manos!',
       defImageurl:
@@ -189,7 +189,7 @@ const programas = [
     {
       id: 'ctjz0hf8gp9rerzytwv9vq7f9w0fyt',
       name: 'Clínica de Coaching Profesionales exitosos',
-      href: '#',price:0,
+      href: '#',price:10,
       description:
         'Impulsa tu carrera con estrategias de alto impacto. Aprende a proyectar seguridad, potenciar tu liderazgo y destacar en cualquier entorno profesional. Diseñado para mujeres que buscan ascender, negociar con confianza y convertirse en referentes en su industria. ¡Es hora de desbloquear tu máximo potencial!',
         defImageurl:
@@ -209,7 +209,7 @@ const programas = [
     {
       id: 'vh1j4zugwyzwcz6vz4xy8mfizvbkmt',
       name: 'Clínica de Coaching "Emprende & Brilla"',
-      href: '#',price:0,
+      href: '#',price:50,
       description:
         'Convierte tu pasión en un negocio exitoso con una mentalidad ganadora. Te guiamos paso a paso en estrategias para construir, posicionar y escalar tu emprendimiento con seguridad y visión. Domina la confianza, la gestión y la marca personal para destacar en el mercado. ¡Haz que tu negocio refleje tu grandeza!',
         defImageurl:
@@ -229,7 +229,7 @@ const programas = [
     {
       id: 'zit4fdiqyvx62q0dv8pt5mbv0nizix',
       name: 'Clínica de Coaching "Mentalidad Abundante"',
-      href: '#',price:0,
+      href: '#',price:55,
       description:
         'El éxito empieza en tu mente. Rompe con creencias limitantes y desarrolla una mentalidad poderosa que te ayude a atraer oportunidades y bienestar en todas las áreas de tu vida. Aprende técnicas para gestionar el estrés, mantener una actitud positiva y vivir en plenitud. ¡El cambio empieza hoy!',
         defImageurl:
@@ -249,7 +249,7 @@ const programas = [
     {
       id: 'ph9090m4xkcd3p61tk12v1hbj1wgu4',
       name: 'Clínica de Coaching "Marca Personal Imparable"',
-      href: '#',price:0,
+      href: '#',price:50,
       description:
         'Diferénciate y haz que tu nombre sea sinónimo de éxito. Te ayudamos a construir una marca personal fuerte, auténtica y alineada con tus valores y objetivos. Aprende a destacar en redes, comunicar tu propuesta de valor y dejar una huella en tu industria. ¡Es momento de brillar con luz propia!',
         defImageurl:
@@ -269,7 +269,7 @@ const programas = [
     {
       id: '119m1rned153ubx92nyygih8zk2j5g',
       name: 'Clínica de Coaching "Finanzas Inteligentes"',
-      href: '#',price:0,
+      href: '#',price:70,
       description:
         'Haz que tu dinero trabaje para ti. Aprende a gestionar tus finanzas con estrategias prácticas que te permitan ahorrar, invertir y multiplicar tus ingresos sin estrés. Empodérate financieramente y toma el control de tu futuro económico con hábitos efectivos. ¡La libertad financiera está en tus manos!',
         defImageurl:
@@ -289,7 +289,7 @@ const programas = [
     {
       id: '2nrjmx2rhe4y8mt8xh31v9360i31n4',
       name: 'Clínica de Coaching "Dominando tus Emociones"',
-      href: '#',price:0,
+      href: '#',price:80,
       description:
         'El éxito empieza con el autocontrol. Aprende a gestionar el estrés, la ansiedad y las emociones difíciles para tomar mejores decisiones en tu vida profesional y personal. Desarrolla inteligencia emocional, confianza y resiliencia para enfrentar cualquier desafío con éxito. ¡Empodérate desde adentro!',
         defImageurl:
@@ -309,7 +309,7 @@ const programas = [
     {
       id: 'dhqdgbcyz91eaqpmagxyfdi25uu45z',
       name: 'Clínica de Coaching "Liderazgo Femenino de Impacto"',
-      href: '#',price:0,
+      href: '#',price:90,
       description:
         'Convierte tu liderazgo en una ventaja competitiva. Aprende a dirigir equipos, tomar decisiones estratégicas y posicionarte como una líder influyente en tu entorno. Potencia tu seguridad, tu comunicación y tu visión para inspirar y transformar. ¡Es tu momento de liderar con poder!',
         defImageurl:
@@ -329,7 +329,7 @@ const programas = [
     {
       id: '9i77xqh1cpkr79acxp4wvg75racg52',
       name: 'Clínica de Coaching "Comunicación & Marca de Élite"',
-      href: '#',price:0,
+      href: '#',price:60,
       description:
         'Tu mensaje es tu poder. Aprende a comunicarte con claridad, seguridad y persuasión en cualquier escenario. Potencia tu presencia, expresión verbal y no verbal para impactar en reuniones, presentaciones y redes sociales. ¡Conviértete en una experta en influencia y posicionamiento!',
         defImageurl:
@@ -349,7 +349,7 @@ const programas = [
     {
       id: 'xq8ynmtkej3ypg8j240n3p4afz221t',
       name: 'Clínica de Coaching "Tiempo & Productividad Eficaz"',
-      href: '#',price:0,
+      href: '#',price:50,
       description:
         'Haz más en menos tiempo sin sacrificar tu bienestar. Aprende estrategias de gestión del tiempo, organización y productividad que te ayudarán a equilibrar tu vida profesional y personal. Libérate del caos, prioriza lo importante y alcanza tus metas con enfoque. ¡La clave está en tu agenda!',
         defImageurl:
@@ -369,7 +369,7 @@ const programas = [
     {
       id: '25eq35bx9p5r893igqzdgq72721aja',
       name: 'Clínica de Coaching "Hábitos de Éxito"',
-      href: '#',price:0,
+      href: '#',price:20,
       description:
         'Cambia tu rutina, cambia tu vida. Aprende a diseñar hábitos poderosos que te impulsen al éxito sin esfuerzo ni frustración. Descubre técnicas para desarrollar disciplina, motivación y constancia en cualquier meta que te propongas. ¡Los pequeños cambios generan grandes resultados!',
         defImageurl:
@@ -389,7 +389,7 @@ const programas = [
     {
       id: 'c5rjhg5aw541f0akwv9vvnfivcjf8b',
       name: 'Clínica de Coaching "Identidad & Estilo de Poder"',
-      href: '#',price:0,
+      href: '#',price:60,
       description:
         'Tu imagen habla antes que tú. Aprende a proyectar seguridad, elegancia y autenticidad a través de tu estilo personal. Descubre los secretos de la imagen profesional, la vestimenta estratégica y el branding personal para brillar en cualquier escenario. ¡Cuando te ves bien, te sientes imparable',
         defImageurl:

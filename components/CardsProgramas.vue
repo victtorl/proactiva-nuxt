@@ -61,7 +61,7 @@
               </div>
 
               <div class="">
-                    <div type="button" 
+                    <div 
                         class="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 text-xs outline-none bg-transparent rounded-md">
 
                         <span @click="minusQuantityItem()" class="cursor-pointer">
@@ -87,6 +87,7 @@
               </div>
             </div>
           </article>
+     
   </div>
 
      <!-- /////modal -->
@@ -135,12 +136,12 @@
                       fill="#0F172A" />
                   </svg>
                   <p class="font-josefS font-normal text-[#6B6969] text-sm md:text-xl lg:text-2xl py-6">Lo que incluyes
-                    en tu cotización</p>
+                    en tu carrito</p>
                 </div>
 
                 <div class="flex flex-row justify-between items-start    sm:gap-x-10  p-4 lg:p-10 ">
                   <span class="flex flex-row gap-x-1 xs:gap-x-3 h-28 ">
-                    <img :src="props.imagen" alt="" srcset="">
+                    <img :src="props.defImageurl" alt="" srcset="">
                     <span class="flex flex-col  justify-between ">
                       <p
                         class="font-josefS font-bold text-graytitles text-xs xs:w-auto  lg:w-full xs:text-sm md:text-xl ">
@@ -287,7 +288,7 @@ const itemcart = computed(() => {
     price:props.price,
     description:props.description,
     category:props.category,
-    imagen: props.imagen,
+    defImageurl: props.defImageurl,
     quantity: props.quantity,
 
 

@@ -140,7 +140,7 @@
 
                 <div class="flex flex-row justify-between items-start    sm:gap-x-10  p-4 lg:p-10 ">
                   <span class="flex flex-row gap-x-1 xs:gap-x-3 h-28 ">
-                    <img :src="props.imagen" alt="" srcset="">
+                    <img :src="props.defImageurl" alt="" srcset="">
                     <span class="flex flex-col  justify-between ">
                       <p
                         class="font-josefS font-bold text-graytitles text-xs xs:w-auto  lg:w-full xs:text-sm md:text-xl ">
@@ -285,7 +285,7 @@ const itemcart = computed(() => {
     price:props.price,
     description:props.description,
     category:props.category,
-    imagen: props.imagen,
+    defImageurl: props.defImageurl,
     quantity: props.quantity,
 
 

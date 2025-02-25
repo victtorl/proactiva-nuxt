@@ -16,8 +16,8 @@
                     class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-6">
                     <div class="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
                       <a class="shrink-0 md:order-1  flex items-center px-6">
-                        <img class="h-20 w-20 dark:hidden" :src="item.imagen" alt="imac image" />
-                        <img class="hidden h-20 w-20 dark:block" :src="item.imagen" alt="imac image" />
+                        <img class="h-24 w-44  dark:hidden" :src="item.defImageurl" alt="imac image" />
+                        <img class="hidden h-20 w-20 dark:block" :src="item.defImageurl" alt="imac image" />
                       </a>
   
   
@@ -84,12 +84,12 @@
                     <div class="space-y-2">
                       <dh class="flex items-center justify-between gap-4">
                         <dt class="text-base font-medium text-gray-900 dark:text-white w-64 ">Nombre</dt>
-                        <dt class="text-base font-medium text-gray-900 dark:text-white  w-16 "> Medida</dt>
+                        <dt class="text-base font-medium text-gray-900 dark:text-white  w-16 ">Precio</dt>
                         <dd class="text-base font-medium text-gray-900 dark:text-white w-16 ">Cantidad</dd>
                       </dh>
                       <dl class="flex items-center justify-between gap-4 " v-for="item in cartST.items">
                         <dt class="text-base font-normal text-gray-500 dark:text-gray-400 w-64 ">{{item.nombre}}</dt>
-                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400   w-16 "> {{item.medida}}</dt>
+                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400   w-16 "> {{item.price}}</dt>
                         <dd class="text-base font-medium text-gray-900 dark:text-white w-16 text-end ">{{ item.quantity }}
                         </dd>
                       </dl>
@@ -100,6 +100,11 @@
                       <dt class="text-base font-bold text-gray-900 dark:text-white">Total items</dt>
                       <dd class="text-base font-bold text-gray-900 dark:text-white">{{ cartST.totalItems }}</dd>
                     </dl>
+                    <dl
+                      class="flex items-center justify-between gap-4 border-t border-gray-200 pt-2 dark:border-gray-700">
+                      <dt class="text-base font-bold text-gray-900 dark:text-white">Total precio</dt>
+                      <dd class="text-base font-bold text-gray-900 dark:text-white">S/. {{ cartST.totalPrice }}</dd>
+                    </dl>
                   </div>
   
                   <a href="#"
@@ -108,9 +113,9 @@
   
                   <div class="flex items-center justify-center gap-2">
                     <span class="text-sm font-normal text-gray-500 dark:text-gray-400"> o </span>
-                    <NuxtLink to="/productos" title=""
+                    <NuxtLink to="/services" title=""
                       class="inline-flex items-center gap-2 text-sm font-medium text-primary-700 underline hover:no-underline dark:text-primary-500">
-                      Agregar otros productos
+                      Agregar mas servicios
                       <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
