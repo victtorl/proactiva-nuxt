@@ -1,6 +1,6 @@
 <template>
     <section id="faq" class="py-[20px]  bg-white max-w-full">
-      <div class=" px-[20px] 2xl:px-0 mx-auto grid grid-cols-6 lg:grid-cols-12 sm:gap-[63px]">
+      <div class=" px-[20px] 2xl:px-0 mx-auto grid grid-cols-6 lg:grid-cols-12 sm:gap-[63px] centradoPgrande">
         <div class="col-span-6">
           <h1 class="px-5 bg-main-gray border border-it-blue/20 text-it-blue font-medium rounded-[30px] w-fit">
             Preguntas frecuentes

@@ -1,29 +1,58 @@
 <template>
   <div class="mx-7 lg:mx-24 bg-secundary h-[100%] pt-[36px] lg:pt-0 ">
-      <div class="w-full ">
-        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[65vh] mb-4 bg-blackgio  flex justify-center">
-          <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50 " />
+      <div class="w-full flex justify-center">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
+          <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
         </div>
 
       </div>
      
-      <div class="w-full flex flex-col xl:flex-row pb-16  ">
+      <div class="w-full   flex justify-center" >
+      <div class=" grid grid-cols-2 items-center centradoPgrande ">
         <div class="pr-10 sm:pb-4 " >
-          <p class="text-paragraph mb-4    xl:w-[430px] 2xl:w-[520px] 3xl:w-[535px] text-justify ">
+          <p class="text-paragraph mb-4  text-center    ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
-          <NuxtLink  to="/services" class="rounded-full px-4 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MÁS</NuxtLink>
+          <!-- <NuxtLink  to="/services" class="rounded-full px-4 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MÁS</NuxtLink> -->
         </div>
 
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
-              <img v-for="item in imgs" :src="`${item.name}`" alt=""  
-              class="w-64 h-64  xl:w-52 xl:h-52 2xl:w-64 2xl:h-64 object-cover py-4 lg:py-0
+              <img :src="img3" alt=""  
+              class=" object-cover py-4 lg:py-0
               transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
               " srcset="">
         </div>
 
         
       </div>
+      </div>
+
+      <div class="w-full   flex justify-center my-10" >
+      <div class=" grid grid-cols-2 items-center centradoPgrande ">
+
+        <div  class="w-full px-4 flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
+              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%202%20home%20ok.jpg?alt=media" alt=""  
+              class=" object-cover py-4 lg:py-0
+              transform rounded-xl  bg-white shadow-xl transition duration-300 hover:translate-x-4
+              " srcset="">
+        </div>
+
+        <div class="pr-10 sm:pb-4 px-4 flex flex-col justify-between h-full " >
+          <p class="text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  ">
+            Cuando creamos un nuevo destino en nuestra mente creamos un nuevo futuro en nuestra vida. 
+          </p>
+
+          <p class="text-paragraph mb-4  text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
+
+          <button>MAS INFO</button>
+          <!-- <NuxtLink  to="/services" class="rounded-full px-4 lg:px-0 py-1 bg-colorbutton xl:text-[24px] 2xl:text-[26px] 3xl:text-[30px] cursor-pointer hover:font-bold">CONOCE MÁS</NuxtLink> -->
+        </div>
+
+        
+      </div>
+      </div>
+
+
       <Faqs/>
   </div>
   
@@ -78,7 +107,7 @@ function changeBackground() {
 }
 
 function obtenerNumeroAleatorio() {
-  return Math.floor(Math.random() * 3) + 1;
+  return Math.floor(Math.random() * 3);
 }
 
 setInterval(changeBackground, 5000);

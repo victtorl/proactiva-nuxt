@@ -1,6 +1,11 @@
 <template>
-     <footer class="pt-20 bg-paragraph px-6 xl:px-0">
-      <div class="flex flex-wrap justify-between gap-5  mb-20 theme-container">
+
+
+     <footer class="pt-20 bg-paragraph  ">
+      
+      <span class="w-full flex justify-center ">
+      <div class="w-full  centradoPgrande" >
+      <div class="flex flex-wrap justify-between gap-5  mb-20 ">
         <div class="w-fit max-w-[300px]  flex  flex-col justify-between">
           <img src="~/assets/landing-imgs/logoprincipal.png"  class="w-28  "alt="logo" />
           <!-- <p class="max-w-[300px] text-white/55 my-6">
@@ -222,6 +227,9 @@
         
         </div>
       </div>
+      </div>
+    </span>
+
       <div class="w-full h-[150px] sm:[80px] md:h-[65px] bg-primary/20">
         <div class="h-full mx-auto border-t theme-container border-white/10">
           <div class="flex flex-wrap items-center justify-between w-full h-full">
@@ -274,7 +282,9 @@
           </div>
         </div>
       </div>
+  
     </footer>
+
 </template>
 
 <script setup lang="ts" >
