@@ -1,13 +1,13 @@
 <template>
   <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 " id="iniciotitle">
       <div class="w-full flex justify-center">
-        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
           <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
         </div>
 
       </div>
      
-      <div class="w-full   flex justify-center my-8" >
+      <div class="w-full   flex justify-center  lg:my-8" >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
         <div class="lg:pr-10 sm:pb-4 " >
           <p class="text-paragraph mb-4  text-center    ">
@@ -74,7 +74,7 @@
       </div>
 
       <div class="w-full flex justify-center " >
-        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl pt-12 lg:pt-24"  >
+        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl pt-8 lg:pt-24"  >
           Es momento de tomar acción y  decisiones clave, para convertirte en lideresa de tu vida.
         </p>
       </div>
@@ -83,7 +83,7 @@
       <div class=" grid grid-cols-1 md:gri-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-10 2xl:gap-x-4 items-center  centradoPgrande ">
 
         <div class="py-6 lg:py-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
-          <p class="text-xl font-bold  text-paragraph" >Programas de empoderamiento</p>
+          <p class="text-xl font-bold text-center text-paragraph" >Programas de empoderamiento</p>
           <div  class="w-full flex flex-col md:flex-row lg:py-2 justify-center items-center md:items-start md:justify-between  gap-x-4 " >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FProgramas%20de%20empoderamiento%20ok.jpg?alt=media" alt=""  
                 class=" object-cover 
@@ -132,7 +132,7 @@
 
       <div class="w-full  flex justify-center " >
                 <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentor%C3%ADa%20y%20coaching%20ok.jpg?alt=media" alt=""  
-                class=" object-cover w-[100vw] 2xl:centradoPgrande py-4 lg:py-0
+                class=" object-cover w-[100vw]   3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0
                 
                 " srcset="">
       </div>
