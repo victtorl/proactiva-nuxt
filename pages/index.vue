@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-7 lg:mx-24 bg-secundary h-[100%] md:pt-[36px] lg:pt-0 ">
+  <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 ">
       <div class="w-full flex justify-center">
         <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
           <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
@@ -80,7 +80,7 @@
       </div>
 
       <div class="w-full   flex justify-center my-10 " >
-      <div class=" grid grid-cols-1 md:gri-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-10 items-center  centradoPgrande ">
+      <div class=" grid grid-cols-1 md:gri-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-10 2xl:gap-x-4 items-center  centradoPgrande ">
 
         <div class="lg:pr-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
           <p class="text-xl font-bold text-paragraph" >Programas de empoderamiento</p>
@@ -129,6 +129,14 @@
         
       </div>
       </div>
+
+      <div class="w-full  flex justify-center " >
+                <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentor%C3%ADa%20y%20coaching%20ok.jpg?alt=media" alt=""  
+                class=" object-cover w-[100vw] 2xl:centradoPgrande py-4 lg:py-0
+                
+                " srcset="">
+      </div>
+      
 
 
       <Faqs/>
