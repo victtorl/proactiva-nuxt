@@ -104,7 +104,7 @@
                             <div class="fixed inset-y-0 left-0 z-10 w-[80vw]  bg-[#86654B]  overflow-y-auto bg-sidebarcolor dark:bg-secundarydark px-6 pt-3 sm:max-w-sm sm:ring-1  sm:ring-gray-900/10">
                                 <span class="   flex flex-col  w-full">
                                     <div class="flex items-center justify-between   dark:bg-pflask">
-                                        <NuxtLink @click="toogleSidebar" to="/">
+                                        <NuxtLink @click="toogleSidebarInicio" to="/">
                                         <span  class="flex flex-row items-center justify-center  ">
                                             <p class="text-white font-medium ">PROACTIVA</p>
                                         </span>
@@ -278,6 +278,11 @@ const toggleDark = useToggle(isDark)
 const showsidebar = ref(true)
 
 const toogleSidebar = () => {
+    showsidebar.value = !showsidebar.value
+}
+
+const toogleSidebarInicio = () => {
+    goTo('iniciotitle')
     showsidebar.value = !showsidebar.value
 }
 

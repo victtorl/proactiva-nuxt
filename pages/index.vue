@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 ">
+  <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 " id="iniciotitle">
       <div class="w-full flex justify-center">
         <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[30vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
           <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
