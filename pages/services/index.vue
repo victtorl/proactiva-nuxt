@@ -85,7 +85,7 @@ const programas = [
       description:
         'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
       defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Liderazgo%20y%20Empoderamiento%20ok.jpg?alt=media',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
@@ -105,7 +105,8 @@ const programas = [
       description:
         'Haz que tu nombre brille y conviértete en un referente en tu industria. Aprende a construir una marca personal auténtica, atrae oportunidades y diferenciarte con una propuesta única. ¡Tu marca es tu mejor carta de presentación, haz que el mundo la reconozca!',
       defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Marca%20Personal%20ok.jpg?alt=media',
+    
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
@@ -125,7 +126,7 @@ const programas = [
       description:
         'Domina la comunicación estratégica para transmitir tu mensaje con impacto y persuasión. Fortalece tu presencia en redes y eventos, posicionándote como una experta en tu sector. ¡Tu voz es tu poder, úsala para crecer y dejar huella!',
       defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Comunicaci%C3%B3n%20Marca%20Personal%20ok.jpg?alt=media',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
@@ -145,7 +146,7 @@ const programas = [
       description:
         'Crea un negocio alineado con tu pasión y valores, atrayendo clientes que realmente valoren lo que ofreces. Aprende estrategias efectivas para consolidar un emprendimiento rentable y con impacto. ¡Emprende con propósito y haz crecer tu éxito!',
       defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Emprendimiento%20con%20prop%C3%B3sito%20ok.jpg?alt=media',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
@@ -165,7 +166,7 @@ const programas = [
       description:
         'Desarrolla inteligencia emocional, mejora tu negociación y fortalece tu confianza para destacar en cualquier entorno. Aprende a gestionar tu tiempo, manejar el estrés y potenciar tu productividad. ¡Las habilidades clave para triunfar están en tus manos!',
       defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20de%20Habilidades%20Blandas%20ok.jpg?alt=media',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -192,7 +193,7 @@ const programas = [
       description:
         'Impulsa tu carrera con estrategias de alto impacto. Aprende a proyectar seguridad, potenciar tu liderazgo y destacar en cualquier entorno profesional. Diseñado para mujeres que buscan ascender, negociar con confianza y convertirse en referentes en su industria. ¡Es hora de desbloquear tu máximo potencial!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FProfesional%20Exitosa.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FProfesional%20Exitosa%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -212,7 +213,7 @@ const programas = [
       description:
         'Convierte tu pasión en un negocio exitoso con una mentalidad ganadora. Te guiamos paso a paso en estrategias para construir, posicionar y escalar tu emprendimiento con seguridad y visión. Domina la confianza, la gestión y la marca personal para destacar en el mercado. ¡Haz que tu negocio refleje tu grandeza!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FEmprende%20y%20brilla.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FEmprende%20y%20brilla%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -232,7 +233,7 @@ const programas = [
       description:
         'El éxito empieza en tu mente. Rompe con creencias limitantes y desarrolla una mentalidad poderosa que te ayude a atraer oportunidades y bienestar en todas las áreas de tu vida. Aprende técnicas para gestionar el estrés, mantener una actitud positiva y vivir en plenitud. ¡El cambio empieza hoy!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentalidad%20abundante.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMentalidad%20abundante%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -252,7 +253,7 @@ const programas = [
       description:
         'Diferénciate y haz que tu nombre sea sinónimo de éxito. Te ayudamos a construir una marca personal fuerte, auténtica y alineada con tus valores y objetivos. Aprende a destacar en redes, comunicar tu propuesta de valor y dejar una huella en tu industria. ¡Es momento de brillar con luz propia!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMarca%20Personal%20Imparable.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMarca%20Personal%20Imparable%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -272,7 +273,7 @@ const programas = [
       description:
         'Haz que tu dinero trabaje para ti. Aprende a gestionar tus finanzas con estrategias prácticas que te permitan ahorrar, invertir y multiplicar tus ingresos sin estrés. Empodérate financieramente y toma el control de tu futuro económico con hábitos efectivos. ¡La libertad financiera está en tus manos!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FFinanzas%20inteligentes.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FFinanzas%20inteligentes%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -292,7 +293,7 @@ const programas = [
       description:
         'El éxito empieza con el autocontrol. Aprende a gestionar el estrés, la ansiedad y las emociones difíciles para tomar mejores decisiones en tu vida profesional y personal. Desarrolla inteligencia emocional, confianza y resiliencia para enfrentar cualquier desafío con éxito. ¡Empodérate desde adentro!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FDomina%20tus%20emociones.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FDomina%20tus%20emociones%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -312,7 +313,7 @@ const programas = [
       description:
         'Convierte tu liderazgo en una ventaja competitiva. Aprende a dirigir equipos, tomar decisiones estratégicas y posicionarte como una líder influyente en tu entorno. Potencia tu seguridad, tu comunicación y tu visión para inspirar y transformar. ¡Es tu momento de liderar con poder!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FLiderazgo%20femenino.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FLiderazgo%20femenino%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -332,7 +333,7 @@ const programas = [
       description:
         'Tu mensaje es tu poder. Aprende a comunicarte con claridad, seguridad y persuasión en cualquier escenario. Potencia tu presencia, expresión verbal y no verbal para impactar en reuniones, presentaciones y redes sociales. ¡Conviértete en una experta en influencia y posicionamiento!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FComunicaci%C3%B3n%20y%20marca%20elite.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FComunicaci%C3%B3n%20y%20marca%20elite%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -352,7 +353,7 @@ const programas = [
       description:
         'Haz más en menos tiempo sin sacrificar tu bienestar. Aprende estrategias de gestión del tiempo, organización y productividad que te ayudarán a equilibrar tu vida profesional y personal. Libérate del caos, prioriza lo importante y alcanza tus metas con enfoque. ¡La clave está en tu agenda!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FTiempo%20y%20productividad%20eficaz.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FTiempo%20y%20productividad%20eficaz%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -372,7 +373,7 @@ const programas = [
       description:
         'Cambia tu rutina, cambia tu vida. Aprende a diseñar hábitos poderosos que te impulsen al éxito sin esfuerzo ni frustración. Descubre técnicas para desarrollar disciplina, motivación y constancia en cualquier meta que te propongas. ¡Los pequeños cambios generan grandes resultados!',
         defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2Ftest.webp?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
@@ -392,7 +393,7 @@ const programas = [
       description:
         'Tu imagen habla antes que tú. Aprende a proyectar seguridad, elegancia y autenticidad a través de tu estilo personal. Descubre los secretos de la imagen profesional, la vestimenta estratégica y el branding personal para brillar en cualquier escenario. ¡Cuando te ves bien, te sientes imparable',
         defImageurl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2Ftest.webp?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
