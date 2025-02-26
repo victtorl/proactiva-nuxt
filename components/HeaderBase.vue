@@ -175,6 +175,7 @@
                                     <!-- <div class=" w-64 h-16  flex items-center justify-center absolute bottom-0 right-0">
                                         <button class="flex flex-row items-center"  @click="enabledisableDark" >
                                            <img class="w-6"  :src=!isDark?iconmoon:iconsun  />
+                                           <p>hola</p>
                                         </button>
                                     </div> -->
                                 </span>
@@ -273,7 +274,12 @@ let goServices=() => {
 import { useDark, useToggle } from '@vueuse/core';
 import { goTo } from '~/codesutils/utils'
 const isDark = useDark()
-const toggleDark = useToggle(isDark)
+
+// // modo oscuro 
+// const toggleDark = useToggle(isDark)
+// const enabledisableDark = () => {
+//     toggleDark()
+// }
 
 const showsidebar = ref(true)
 
@@ -288,9 +294,6 @@ const toogleSidebarInicio = () => {
 
 
 
-const enabledisableDark = () => {
-    toggleDark()
 
-}
 
 </script>
