@@ -111,7 +111,7 @@
 
           <div class="w-[100%] md:w-[80%]  h-full ">
 
-            <div class="w-full h-auto flex flex-col justify-start bg-white items-center py-0 md:py-4 md:pt-6 relative">
+            <div class="w-full h-auto flex flex-col justify-start bg-white dark:bg-slate-700 items-center py-0 md:py-4 md:pt-6 relative">
 
               <div class="absolute -top-0 right-0 md:-top-0 md:-right-0 cursor-pointer hover:bg-elecktraamarillo  hover:rounded-lg"
                 @click="cerrarModal">
@@ -184,7 +184,7 @@
                 <div class="flex flex-col lg:flex-row  gap-x-4 px-8 gap-y-4  w-full ">
 
                   <h2 @click="cerrarModal"
-                    class="font-josefS w-full xl:w-96 font-bold text-lg md:text-2xl underline cursor-pointer  bg-white rounded-3xl h-10 text-slate-700  ">
+                    class="font-josefS w-full text-center xl:w-96 font-bold text-lg md:text-2xl underline cursor-pointer  bg-white rounded-3xl h-10 text-slate-700  ">
                     Seguir comprando</h2>
 
                   <NuxtLink to="/mycart" @click="cerrarModal">
