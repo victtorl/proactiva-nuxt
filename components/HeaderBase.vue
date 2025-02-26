@@ -149,10 +149,10 @@
                                                         </MenuItems>
                                                         </transition>
                                                     </Menu>
-                                                <NuxtLink @click="toogleSidebar" to="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
-                                                    <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconSearch.svg" alt="Logo"> -->
+                                                <!-- <NuxtLink @click="toogleSidebar" to="/tienda"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
+                                                    <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SidebarIconSearch.svg" alt="Logo">
                                                     TIENDA VIRTUAL
-                                                </NuxtLink>
+                                                </NuxtLink> -->
                                                 <NuxtLink  @click="toogleSidebar" to="/contacto"  class="flex flex-row items-center  text-xl font-normal font-rob leading-7 text-white focus:bg-slate-700 focus:opacity-50">
                                                     <!-- <img class="h-6 mr-4 w-auto " src="~/assets/landing-images/SIdebarIconComunidades.svg" alt="Logo"> -->
                                                      CONTACTO
