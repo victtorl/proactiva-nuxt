@@ -84,6 +84,13 @@
                 </svg>
               </div>
             </NuxtLink>
+
+            <div class=" w-64 h-16  flex items-center justify-center absolute  -right-6">
+                <button class="flex flex-row items-center"  @click="enabledisableDark" >
+                    <img class="w-6"  :src=!isDark?iconmoon:iconsun  />
+                </button>
+            </div>
+
         </nav>
         <div id="mobileMenu" class="mobile-menu md:hidden bg-white dark:bg-gray-800 shadow-lg absolute w-full left-0 transform -translate-y-full opacity-0">
             <div class="container mx-auto px-4 py-4 space-y-4">
@@ -172,12 +179,11 @@
                                         </div>
                                     </div>
 
-                                    <!-- <div class=" w-64 h-16  flex items-center justify-center absolute bottom-0 right-0">
+                                    <div class=" w-64 h-16  flex items-center justify-center absolute bottom-0 right-0">
                                         <button class="flex flex-row items-center"  @click="enabledisableDark" >
                                            <img class="w-6"  :src=!isDark?iconmoon:iconsun  />
-                                           <p>hola</p>
                                         </button>
-                                    </div> -->
+                                    </div>
                                 </span>
                             </div>
                         </div>
@@ -275,11 +281,12 @@ import { useDark, useToggle } from '@vueuse/core';
 import { goTo } from '~/codesutils/utils'
 const isDark = useDark()
 
-// // modo oscuro 
-// const toggleDark = useToggle(isDark)
-// const enabledisableDark = () => {
-//     toggleDark()
-// }
+// modo oscuro 
+const toggleDark = useToggle(isDark)
+const enabledisableDark = () => {
+    toggleDark()
+}
+
 
 const showsidebar = ref(true)
 
