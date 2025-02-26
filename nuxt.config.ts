@@ -11,5 +11,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  colorMode: {
+    preference: 'light'
+  },
   target: 'static',
 })

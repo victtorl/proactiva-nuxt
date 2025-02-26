@@ -58,10 +58,10 @@
             </div>
 
 
-            <NuxtLink to="/contacto">
+            <NuxtLink to="/contacto"  >
               <div 
                @click="goToInicio"
-              class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue border-it-blue ">
+              class="home-two-btn-white-rev home-two-btn-white-rev-sm group bg-it-blue  border-it-blue ">
                 <span class="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-it-blue font-inter ">
                   Contáctanos
                 </span>
@@ -84,12 +84,13 @@
                 </svg>
               </div>
             </NuxtLink>
-
-            <div class=" w-64 h-16  flex items-center justify-center absolute  -right-6">
+            <div class=" w-8  h-16  flex items-center justify-center">
                 <button class="flex flex-row items-center"  @click="enabledisableDark" >
                     <img class="w-6"  :src=!isDark?iconmoon:iconsun  />
                 </button>
             </div>
+
+
 
         </nav>
         <div id="mobileMenu" class="mobile-menu md:hidden bg-white dark:bg-gray-800 shadow-lg absolute w-full left-0 transform -translate-y-full opacity-0">
@@ -259,8 +260,8 @@
 
 
 <script setup>
-import iconmoon from '~/assets/landing-imgs/iconmoon.png'
-import iconsun from '~/assets/landing-imgs/iconsun.png'
+import iconmoon from '~/assets/landing-imgs/iconmoon.svg'
+import iconsun from '~/assets/landing-imgs/iconsun.svg'
 
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
