@@ -139,8 +139,8 @@
                     en tu carrito</p>
                 </div>
 
-                <div class="flex flex-row justify-between items-start    sm:gap-x-10  p-4 lg:p-10 ">
-                  <span class="flex flex-row gap-x-1 xs:gap-x-3 h-28 ">
+                <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start    sm:gap-x-10  p-4 lg:p-10 ">
+                  <span class="flex flex-col lg:flex-row gap-x-1 xs:gap-x-3 lg:h-28 ">
                     <img :src="props.defImageurl" alt="" srcset="">
                     <span class="flex flex-col  justify-between ">
                       <p
@@ -149,7 +149,7 @@
                       </p>
                     </span>
                   </span>
-                  <span class="flex flex-col  place-items-end justify-between h-28">
+                  <span class="flex flex-col  my-2 md:my-0 place-items-end justify-between lg:h-28">
 
 
                     <span class="flex flex-col md:flex-row justify-center items-end md:gap-x-6  ">

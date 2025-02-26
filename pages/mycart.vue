@@ -14,14 +14,14 @@
                 <div class="flex flex-col gap-y-6 ">
                   <div v-for="item in cartST.items"
                     class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-6">
-                    <div class="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
+                    <div class="space-y-4 md:flex md:items-center flex-row md:flex-col xl:flex-row md:justify-between md:gap-6 md:space-y-0">
                       <a class="shrink-0 md:order-1  flex items-center px-6">
-                        <img class="h-24 w-44  dark:hidden" :src="item.defImageurl" alt="imac image" />
+                        <img class="md:h-24  md:w-44   dark:hidden" :src="item.defImageurl" alt="imac image" />
                         <img class="hidden h-20 w-20 dark:block" :src="item.defImageurl" alt="imac image" />
                       </a>
   
   
-                      <div class="flex items-center justify-between md:order-3 md:justify-end">
+                      <div class="flex items-center  justify-center lg:justify-between md:order-3 md:justify-end">
                         <div class="flex items-center">
                           <button @click="cartST.updateQuantity(item.id,item.quantity-1)" type="button"
                             id="decrement-button" data-input-counter-decrement="counter-input"
@@ -50,20 +50,17 @@
                       </div>
   
                       <div
-                        class="w-full min-w-0 flex flex-col justify-between space-y-4 md:order-2 md:max-w-[200px]  px-6">
-                        <a class="text-base font-medium text-gray-900 hover:underline dark:text-white  ">{{ item.nombre
+                        class="w-full min-w-0 flex flex-col justify-between  space-y-4 md:order-2 md:max-w-[200px]  px-6">
+                        <a class="text-base font-medium text-gray-900 hover:underline dark:text-white text-center ">{{ item.nombre
                           }}</a>
   
-                        <div class="flex items-center gap-4 ">
+                        <div class="flex items-center justify-center  gap-4 ">
   
                           <button @click="cartST.removeItem(item.id)" type="button" class="inline-flex items-center ">
-                            <svg class="me-1.5 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
-                              height="24" fill="none" viewBox="0 0 24 24">
-                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M6 18 17.94 6M18 18 6.06 6" />
-                            </svg>
-                            <span
-                              class="text-sm font-medium text-red-500 hover:underline dark:text-red-500">Eliminar</span>
+
+                              <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5001 3.48283V3.70962C14.4548 3.79701 15.4017 3.91194 16.3398 4.05362C16.6871 4.10607 17.0332 4.16219 17.3781 4.22194C17.7863 4.29263 18.0598 4.6808 17.9891 5.08894C17.9184 5.49708 17.5302 5.77062 17.1221 5.69992C17.0525 5.68787 16.9829 5.67596 16.9131 5.66421L15.9077 18.7347C15.7875 20.2977 14.4842 21.5046 12.9166 21.5046H5.08369C3.51608 21.5046 2.21276 20.2977 2.09253 18.7347L1.0871 5.66421C1.0174 5.67596 0.947739 5.68787 0.878134 5.69992C0.469998 5.77062 0.0818265 5.49708 0.011128 5.08894C-0.0595705 4.68081 0.213976 4.29263 0.622112 4.22194C0.96701 4.16219 1.31315 4.10607 1.66048 4.05362C2.59858 3.91194 3.5454 3.79701 4.50012 3.70962V3.48283C4.50012 1.91835 5.71265 0.582821 7.31556 0.531546C7.87491 0.513653 8.43648 0.504639 9.00012 0.504639C9.56377 0.504639 10.1253 0.513653 10.6847 0.531546C12.2876 0.582821 13.5001 1.91835 13.5001 3.48283ZM7.36352 2.03078C7.90689 2.0134 8.45247 2.00464 9.00012 2.00464C9.54778 2.00464 10.0934 2.0134 10.6367 2.03078C11.3913 2.05492 12.0001 2.68857 12.0001 3.48283V3.59546C11.0078 3.5352 10.0075 3.50464 9.00012 3.50464C7.99278 3.50464 6.99249 3.5352 6.00012 3.59546V3.48283C6.00012 2.68857 6.6089 2.05492 7.36352 2.03078ZM7.00872 7.97581C6.9928 7.56191 6.64436 7.23927 6.23045 7.25519C5.81654 7.27111 5.49391 7.61956 5.50983 8.03346L5.85599 17.0335C5.8719 17.4474 6.22035 17.77 6.63426 17.7541C7.04816 17.7382 7.3708 17.3897 7.35488 16.9758L7.00872 7.97581ZM12.4895 8.03346C12.5054 7.61956 12.1828 7.27111 11.7689 7.25519C11.355 7.23927 11.0065 7.56191 10.9906 7.97581L10.6444 16.9758C10.6285 17.3897 10.9512 17.7382 11.3651 17.7541C11.779 17.77 12.1274 17.4474 12.1433 17.0335L12.4895 8.03346Z" fill="#EB320B"/>
+                              </svg>
                           </button>
                         </div>
                       </div>
