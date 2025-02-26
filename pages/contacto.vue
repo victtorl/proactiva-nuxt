@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px] fonr lg:pt-0 text-paragraph">
+    <div class="h-[100%] mx-7 lg:mx-24 mt-16 pb-10 pt-[36px]  lg:pt-0 text-paragraph">
         <div class="flex flex-col lg:flex-row justify-between ">
             <div class="flex flex-col lg:w-[50%]  ">
                 <h1 class="text-5xl 2xl:text-6xl 3xl:text-6xl pb-4">

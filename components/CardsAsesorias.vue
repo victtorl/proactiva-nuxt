@@ -12,19 +12,19 @@
                 <a :href="props.category.href" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{ props.category.name }}</a>
               </div>
               <div class="group relative z-20">
-                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 h-12 ">
+                <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 dark:text-white group-hover:text-gray-600 h-12 ">
                   <NuxtLink :to="`/services/${props.nombre}`" >
-                    <span class="absolute inset-0" @click="llenarDetalleProducto(props.item)" />
+                    <span class="absolute inset-0 " @click="llenarDetalleProducto(props.item)" />
                     {{ props.nombre }}
                   </NuxtLink>
                 </h3>
-                <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ props.description }}</p>
+                <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-white">{{ props.description }}</p>
               </div>
 
               <div class="flex items-center gap-x-4 pt-3">
                 <img :src="props.author.defImageurl" alt="" class="size-10 rounded-full bg-gray-100" />
                 <div class="text-sm/6">
-                  <p class="font-semibold text-gray-900">
+                  <p class="font-semibold text-gray-900 dark:text-white">
                     <a :href="props.author.href">
                       <span class="absolute inset-0" />
                       {{ props.author.name }}
@@ -62,7 +62,7 @@
 
               <div class="">
                     <div type="button" 
-                        class="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 text-xs outline-none bg-transparent rounded-md">
+                        class="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 dark:text-white text-xs outline-none bg-transparent rounded-md">
 
                         <span @click="minusQuantityItem()" class="cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 fill-current" viewBox="0 0 124 124">
@@ -110,7 +110,7 @@
 
           <div class="w-[100%] md:w-[80%]  h-full ">
 
-            <div class="w-full h-auto flex flex-col justify-start bg-white items-center py-0 md:py-4 md:pt-6 relative">
+            <div class="w-full h-auto flex flex-col justify-start bg-white dark:bg-slate-700 items-center py-0 md:py-4 md:pt-6 relative">
 
               <div class="absolute -top-0 right-0 md:-top-0 md:-right-0 cursor-pointer hover:bg-elecktraamarillo  hover:rounded-lg"
                 @click="cerrarModal">
@@ -183,7 +183,7 @@
                 <div class="flex flex-col lg:flex-row  gap-x-4 px-8 gap-y-4  w-full ">
 
                   <h2 @click="cerrarModal"
-                    class="font-josefS w-full xl:w-96 font-bold text-lg md:text-2xl underline cursor-pointer  bg-white rounded-3xl h-10 text-slate-700  ">
+                    class="font-josefS w-full text-center xl:w-96 font-bold text-lg md:text-2xl underline cursor-pointer  bg-white rounded-3xl h-10 text-slate-700  ">
                     Seguir comprando</h2>
 
                   <NuxtLink to="/mycart" @click="cerrarModal">
