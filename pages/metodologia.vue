@@ -18,7 +18,7 @@
                 " srcset="">
           </div>
   
-          <div class="lg:pr-10 sm:pb-4 px-4 flex flex-col justify-between items-center h-full " >
+          <div class="lg:pr-10 sm:pb-4 px-4 flex flex-col justify-center items-center h-full " >
             <p class="text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  ">
               Descubre un método integral para tu crecimiento personal
             </p>
@@ -93,57 +93,60 @@ Si buscas un camino de transformación auténtico y alineado con tu esencia, est
         </div>
         </div> -->
   
+        <div  class="w-full flex justify-center" >
+        <div class="centradoPimagenes">
+
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-02.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-01.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-03.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-04.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-06.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-07.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
         <div class="w-full  flex justify-center pb-20" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FMetodolog%C3%ADa%20Proactiva-08.jpg?alt=media" alt=""  
-                  class=" object-cover w-auto px-6 lg:px-0 lg:w-[60%]  3xl:w-maxdesk 3xl:px-0 py-4 lg:py-0 
+                  class=" object-cover  
                   
                   " srcset="">
         </div>
 
-
-  
+        </div>
+        </div>
       
     </div>
     

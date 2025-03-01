@@ -1883,3 +1883,7 @@ h6 {
 .centradoPgrande{
   @apply w-full px-6 lg:px-16  3xl:w-maxdesk 3xl:px-0;
 }
+
+.centradoPimagenes{
+  @apply w-full px-6 lg:px-64  xl:w-maxdesk 2xl:px-0;
+}
