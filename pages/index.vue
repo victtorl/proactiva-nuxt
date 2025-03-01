@@ -1,7 +1,7 @@
 <template>
   <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 " id="iniciotitle">
       <div class="w-full flex justify-center">
-        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[400px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[calc(100vh-90px)] mb-4 lg:mb-0 bg-blackgio  flex justify-center  centradoPgrande">
           <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
         </div>
 
@@ -205,9 +205,6 @@ import img2 from '~/assets/landing-imgs/itemhome2.jpg'
 import img3 from '~/assets/landing-imgs/itemhome3.jpg'
 
 
-import imgbanner1 from '~/assets/landing-imgs/bannerhome.jpg'
-import imgbanner2 from '~/assets/landing-imgs/bannerhome2.png'
-import imgbanner3 from '~/assets/landing-imgs/bannerhome.jpg'
 
 
 import SeoPro from '/public/SeoPro.png'
@@ -235,9 +232,9 @@ const imgs=[
 
 
 const imagesbanner = [
-  {name:imgbanner1},
-  {name:imgbanner2},
-  {name:imgbanner3},
+  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrimera%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
+  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FSegunda%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
+  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FTercera%20magen%20de%20scroll%20superior%20ok.jpg?alt=media'},
 ]
 //imagen cambiante
 let currentIn = ref(0);
