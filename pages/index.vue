@@ -232,6 +232,7 @@ const imgs=[
 
 
 const imagesbanner = [
+  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FCuarta%20imagen%20De%20scroll%20superior%20ok.png?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrimera%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FSegunda%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FTercera%20magen%20de%20scroll%20superior%20ok.jpg?alt=media'},
@@ -243,10 +244,10 @@ function changeBackground() {
 }
 
 function obtenerNumeroAleatorio() {
-  return Math.floor(Math.random() * 3);
+  return Math.floor(Math.random() * 4);
 }
 
-setInterval(changeBackground, 5000);
+setInterval(changeBackground, 3000);
 
 </script>
 
