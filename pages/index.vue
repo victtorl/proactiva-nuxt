@@ -10,7 +10,7 @@
       <div class="w-full   flex justify-center  lg:my-8" >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
         <div class="lg:pr-10 sm:pb-4 " >
-          <p class="text-paragraph mb-4  text-center    ">
+          <p class="text-paragraph mb-4 parrafotext text-center    ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
         </div>
@@ -41,7 +41,7 @@
             Cuando creamos un nuevo destino en nuestra mente creamos un nuevo futuro en nuestra vida. 
           </p>
 
-          <p class="text-paragraph mb-4  text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
+          <p class="text-paragraph mb-4 parrafotext text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
 
           <NuxtLink to="/metodolo" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
@@ -56,7 +56,7 @@
       <div class="w-full   flex justify-center my-8 " >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
         <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-between  h-full " >
-          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+          <p class="text-paragraph mb-4 parrafotext text-center  w-full  h-full flex justify-center items-center  ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
           <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>

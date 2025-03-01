@@ -1887,3 +1887,7 @@ h6 {
 .centradoPimagenes{
   @apply w-full px-6 lg:px-64  xl:w-maxdesk 2xl:px-0;
 }
+
+.parrafotext{
+  @apply  lg:text-lg ;
+}
