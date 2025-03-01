@@ -1,7 +1,7 @@
 <template>
   <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 " id="iniciotitle">
       <div class="w-full flex justify-center">
-        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[350px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
+        <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[400px] mb-4 bg-blackgio  flex justify-center  centradoPgrande">
           <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
         </div>
 
@@ -43,7 +43,7 @@
 
           <p class="text-paragraph mb-4  text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
 
-          <NuxtLink to="/metodologia" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
+          <NuxtLink to="/metodolo" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
         
       </div>
