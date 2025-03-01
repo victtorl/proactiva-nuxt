@@ -29,7 +29,7 @@ export default {
     },
     extend: {
       spacing: {
-        'maxdesk': '1600px',
+        'maxdesk': '1500px',
       },
       fontFamily: {
         josefS: ['Josefin+Sans'],
