@@ -43,7 +43,7 @@
 
           <p class="text-paragraph mb-4  text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
 
-          <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
+          <NuxtLink to="/metodologia" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
         
       </div>

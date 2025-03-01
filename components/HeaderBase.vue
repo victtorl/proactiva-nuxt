@@ -23,17 +23,7 @@
                  <NuxtLink to="/nosotros" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
                      <a>Nosotros</a>
                  </NuxtLink>
-                 <!-- <NuxtLink to="/servicios" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
-                     <a>Servicios</a>
-                 </NuxtLink> -->
-                 <!-- <NuxtLink to="/tienda" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
-                     <a >Tienda</a>
-                 </NuxtLink> -->
-                 <!-- <NuxtLink to="/contacto">
-                     <a  class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300">Contácto</a>
-                 </NuxtLink> -->
-
-                                          <!-- Profile dropdown -->
+           
           <Menu as="div" class="relative ml-3">
             <div>
                 <MenuButton  >
@@ -54,6 +44,11 @@
               </MenuItems>
             </transition>
           </Menu>
+
+          <NuxtLink to="/metodologia" active-class="nav-link text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-white transition-colors duration-300" exact-active-class="font-bold text-primary  text-primary">
+                     <a>Metodología de trabajo</a>
+           </NuxtLink>
+           
 
             </div>
 
