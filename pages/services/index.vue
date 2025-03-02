@@ -45,8 +45,8 @@
 
     <div class=" py-16 sm:py-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white" id="asesoriastitle" >Asesorias</h2>
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white" id="asesoriastitle" >Asesorias - Mentoring - Coaching</h2>
           <p class="mt-2 text-lg/8 text-gray-600">Conoce más acerca de nuestras asesorias.</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -63,6 +63,43 @@
         :quantity="item.quantity"
         :item="item"
         v-for="item in asesorias" />
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class=" py-16 sm:py-16">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white" id="workshooptitle" >Workshop</h2>
+          <p class="mt-2 text-lg/8 text-justify text-gray-600">
+            Te invitamos a ser parte de un espacio diseñado para mujeres empresarias y líderes como tú, donde aprendizaje, intercambio de experiencias y momentos de reflexión se combinan para impulsar tu desarrollo personal y profesional.
+            A través de dinámicas interactivas, exploraremos la importancia del cambio como motor de crecimiento, aprendiendo a alinear nuestras metas y objetivos con nuestros valores y propósito de vida.
+           <br> 🌟 Conéctate con otras mujeres visionarias
+           <br> 🌟 Potencia tu liderazgo con herramientas efectivas
+           <br> 🌟 Descubre nuevas formas de alcanzar el éxito con equilibrio
+            ¡Únete a esta experiencia transformadora! 🚀
+          </p>
+
+          <p class="mt-2  text-center  text-2xl font-robotoflex font-bold  text-gray-600">
+            PRÓXIMOS EVENTOS
+          </p>
+        </div>
+        <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <CardsWorkshoop 
+        :id="item.id"
+        :nombre="item.name" 
+        :description="item.description" 
+        :category="item.category" 
+        :author="item.author"
+        :datetime="item.datetime"
+        :date="item.date"
+        :price="item.price"
+        :defImageurl="item.defImageurl" 
+        :quantity="item.quantity"
+        :item="item"
+        v-for="item in workshops" />
 
         </div>
       </div>
@@ -89,7 +126,7 @@ const programas = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -110,7 +147,7 @@ const programas = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -130,7 +167,7 @@ const programas = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -150,7 +187,7 @@ const programas = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -170,7 +207,7 @@ const programas = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -197,7 +234,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -217,7 +254,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -237,7 +274,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -257,7 +294,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -277,7 +314,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -297,7 +334,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -317,7 +354,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -337,7 +374,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -357,7 +394,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -377,7 +414,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -397,7 +434,7 @@ const programas = [
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
-      name: 'Michael Foster',
+      name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
       href: '#',
       imageUrl:
@@ -408,5 +445,29 @@ const programas = [
     },
     // More posts...
   ]
+
+
+  const workshops = [
+    {
+      id: '8tk41vertyt629in0kx4jvqtitkilalo',
+      name: 'Workshoo nombre',
+      href: '#', price:16,
+      description:
+        'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
+      defImageurl:
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Liderazgo%20y%20Empoderamiento%20ok.jpg?alt=media',
+      date: 'Mar 16, 2020',
+      datetime: '2020-03-16',
+      author: {
+      name: 'Miryam Lara',
+      role: 'Co-Founder / CTO',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+      category: { name: 'Workshop', href: '#' },
+       
+    },
+  ] 
 
 </script>

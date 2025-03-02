@@ -10,10 +10,7 @@
             </div>
             <div class="md:flex-1 px-4">
                 <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">{{ detailST.detailproduct.name }}</h2>
-                <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                    ante justo. Integer euismod libero id mauris malesuada tincidunt.
-                </p>
+            
                 <div class="flex mb-4">
                     <div class="mr-4">
                         <span class="font-bold text-gray-700 dark:text-gray-300">Precio: </span>
