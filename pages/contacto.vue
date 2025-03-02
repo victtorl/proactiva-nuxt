@@ -4,7 +4,7 @@
         <div class="flex flex-col lg:flex-row justify-between ">
             <div class="flex flex-col lg:w-[50%]  ">
                 <h1 class="text-5xl 2xl:text-6xl 3xl:text-6xl pb-4">
-                    Contácto
+                    Contacto
                 </h1>
                 <h4 class="xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] italic font-semibold">Por favor complete el siguiente formulario para enviarnos un email.</h4>
                 <p class="xl:text-[19px] 2xl:text-[22px] 3xl:text-[24px] text-justify py-4">

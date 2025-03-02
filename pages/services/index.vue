@@ -115,6 +115,8 @@
 
 <script setup>
 
+let imagencoachmimi='https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FCoach%20Myriam%20Lara.jpeg?alt=media'
+
 const programas = [
     {
       id: '8tk41vertyt629in0kx4jvqtitzyx6',
@@ -128,10 +130,10 @@ const programas = [
       datetime: '2020-03-16',
       author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Programa', href: '#' },
        
@@ -149,10 +151,10 @@ const programas = [
       datetime: '2020-03-16',
       author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Programa', href: '#' },
        
@@ -169,10 +171,10 @@ const programas = [
       datetime: '2020-03-16',
       author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Programa', href: '#' },
        
@@ -189,10 +191,10 @@ const programas = [
       datetime: '2020-03-16',
       author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Programa', href: '#' },
        
@@ -209,10 +211,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Programa', href: '#' },
        
@@ -236,10 +238,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -256,10 +258,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -276,10 +278,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -296,10 +298,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -316,10 +318,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -336,10 +338,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -356,10 +358,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -376,10 +378,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -396,10 +398,10 @@ const programas = [
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -411,15 +413,15 @@ const programas = [
       description:
         'Cambia tu rutina, cambia tu vida. Aprende a diseñar hábitos poderosos que te impulsen al éxito sin esfuerzo ni frustración. Descubre técnicas para desarrollar disciplina, motivación y constancia en cualquier meta que te propongas. ¡Los pequeños cambios generan grandes resultados!',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2Ftest.webp?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FHabitos%20de%20exito%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -431,15 +433,15 @@ const programas = [
       description:
         'Tu imagen habla antes que tú. Aprende a proyectar seguridad, elegancia y autenticidad a través de tu estilo personal. Descubre los secretos de la imagen profesional, la vestimenta estratégica y el branding personal para brillar en cualquier escenario. ¡Cuando te ves bien, te sientes imparable',
         defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2Ftest.webp?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FIdentidad%20y%20estilo%20de%20peoder%20ok.jpg?alt=media',
         date: 'Mar 16, 2020',
       datetime: '2020-03-16',
           author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:
+        imagencoachmimi,
     },
       category: { name: 'Asesoria', href: '#' },
        
@@ -454,17 +456,16 @@ const programas = [
       name: 'Taller de Propósito de vida por el Día de la Mujer',
       href: '#', price:0,
       description:
-        'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
+        'En el marco del Día de la Mujer, te invitamos a un workshop exclusivo diseñado para mujeres que buscan conectar con su propósito de vida, alinear sus objetivos con sus valores y potenciar su desarrollo personal y profesional.',
       defImageurl:
-        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Liderazgo%20y%20Empoderamiento%20ok.jpg?alt=media',
+        'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FEvento%20Dia%20de%20la%20Mujer%20Final%20ok.jpg?alt=media',
       date: '📅 Fecha: 8 de marzo',
       datetime: '2025-03-8',
       author: {
       name: 'Miryam Lara',
-      role: 'Co-Founder / CTO',
+      role: 'Mentora y Coach Ejecutiva',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      defImageurl:imagencoachmimi,
     },
       lugar:'📍 Lugar: Calle Emilio Fernández 160 – Santa Beatriz',
       category: { name: 'Workshop', href: '#' },
