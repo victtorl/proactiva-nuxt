@@ -173,6 +173,9 @@
                                                             <MenuItem v-slot="{ active }" @click="goTo('asesoriastitle')" >
                                                             <div @click="toogleSidebar" :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Asesorias</div>
                                                             </MenuItem>
+                                                            <MenuItem v-slot="{ active }" @click="goTo('workshooptitle')" >
+                                                            <div  :class="[active ? 'bg-gray-100 outline-hidden' : '', 'block px-4 py-2 text-sm text-gray-700']">Workshop</div>
+                                                            </MenuItem>
                                                         </MenuItems>
                                                         </transition>
                                                     </Menu>

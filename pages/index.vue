@@ -107,7 +107,7 @@
           <p class="text-paragraph mb-4  text-center  w-full  h-full lg:h-20  flex justify-center items-center  ">
             Recibe la guía y mentoría para el desarrollo de tu liderazgo  y cumple tus metas  personales y profesionales.
           </p>
-          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
+          <button @click="goAsesoriasyScroll()" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
         </div>
 
 
@@ -122,7 +122,7 @@
           <p class="text-paragraph mb-4  text-center  w-full  h-full  lg:h-20  flex justify-center items-center  ">
             Participa de nuestros eventos gratuitos y siente la energía del cambio que requieres hacer.
           </p>
-          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
+          <button @click="goServicesyScroll()" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
         </div>
 
 
@@ -208,6 +208,7 @@ import img3 from '~/assets/landing-imgs/itemhome3.jpg'
 
 
 import SeoPro from '/public/SeoPro.png'
+import { goTo } from '~/codesutils/utils'
 useSeoMeta({
     title: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
     ogTitle: `Centro de Desarrollo Personal y Psicología Positiva Proactiva en Lima Mejora tu Bienestar con Terapias Emocionales`,
@@ -248,6 +249,27 @@ function obtenerNumeroAleatorio() {
 }
 
 setInterval(changeBackground, 3000);
+
+
+
+const router=useRouter()
+
+const goAsesoriasyScroll=() => {
+  router.push({ path: "/services" }).then(() => {
+    setTimeout(() => {
+      goTo('asesoriastitle')
+    }, 1200);
+  })
+}
+const goServicesyScroll=() => {
+  router.push({ path: "/services" }).then(() => {
+    setTimeout(() => {
+      goTo('workshooptitle')
+    }, 1200);
+  })
+}
+
+
 
 </script>
 

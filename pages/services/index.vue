@@ -46,7 +46,7 @@
     <div class=" py-16 sm:py-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white" id="asesoriastitle" >Asesorias - Mentoring - Coaching</h2>
+          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white" id="asesoriastitle" >Asesorías - Mentoring - Coaching</h2>
           <p class="mt-2 text-lg/8 text-gray-600">Conoce más acerca de nuestras asesorias.</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -98,7 +98,8 @@
         :price="item.price"
         :defImageurl="item.defImageurl" 
         :quantity="item.quantity"
-        :item="item"
+        :item="item",
+        :lugar="item.lugar"
         v-for="item in workshops" />
 
         </div>
@@ -450,14 +451,14 @@ const programas = [
   const workshops = [
     {
       id: '8tk41vertyt629in0kx4jvqtitkilalo',
-      name: 'Workshoo nombre',
-      href: '#', price:16,
+      name: 'Taller de Propósito de vida por el Día de la Mujer',
+      href: '#', price:0,
       description:
         'Desarrolla tu liderazgo con confianza y seguridad, toma decisiones estratégicas y supera barreras que frenan tu éxito. Aprende a inspirar, influir y crear impacto en tu entorno con inteligencia emocional. ¡Es hora de liderar con propósito y hacer que tu voz se escuche!',
       defImageurl:
         'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrograma%20Liderazgo%20y%20Empoderamiento%20ok.jpg?alt=media',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+      date: '📅 Fecha: 8 de marzo',
+      datetime: '2025-03-8',
       author: {
       name: 'Miryam Lara',
       role: 'Co-Founder / CTO',
@@ -465,6 +466,7 @@ const programas = [
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
+      lugar:'📍 Lugar: Calle Emilio Fernández 160 – Santa Beatriz',
       category: { name: 'Workshop', href: '#' },
        
     },

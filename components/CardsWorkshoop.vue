@@ -18,7 +18,7 @@
                       {{ props.nombre }}
                     </NuxtLink>
                   </h3>
-                  <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-white">{{ props.description }}</p>
+                  <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-white">{{ props.lugar }}</p>
                 </div>
   
                 <div class="flex items-center gap-x-4 pt-3 ">
@@ -243,6 +243,7 @@
     author:Object,
     datetime:Date,
     date:Date,
+    lugar:String,
     item:Object
   })
   

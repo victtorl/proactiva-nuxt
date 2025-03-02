@@ -20,6 +20,18 @@
                         <span class="font-bold text-gray-700 dark:text-gray-300">Coach: </span>
                         <span class="text-gray-600 dark:text-gray-300">{{ detailST.detailproduct.author.name }}</span>
                     </div>
+                    
+                </div>
+                <div class="flex mb-4" v-if="detailST.detailproduct.lugar">
+                    <div>
+                        <span class="text-gray-600 dark:text-gray-300">{{ detailST.detailproduct.lugar }}</span>
+                    </div>                
+                </div>
+
+                <div class="flex mb-4" v-if="detailST.detailproduct.lugar">
+                    <div>
+                        <span class="text-gray-600 dark:text-gray-300">{{ detailST.detailproduct.date }}</span>
+                    </div>                   
                 </div>
 
                 <div >
