@@ -1889,5 +1889,5 @@ h6 {
 }
 
 .parrafotext{
-  @apply  lg:text-lg ;
+  @apply  lg:text-xl ;
 }

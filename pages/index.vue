@@ -2,7 +2,7 @@
   <div class=" bg-secundary h-[100%] md:pt-[36px] lg:pt-0 " id="iniciotitle">
       <div class="w-full flex justify-center">
         <div class="relative isolate overflow-hidden mt-8 lg:mt-0 h-[45vh] lg:h-[calc(100vh-90px)] mb-4 lg:mb-0 bg-blackgio  flex justify-center  centradoPgrande">
-          <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover brightness-50" />
+          <img :src="`${imagesbanner[currentIn]?imagesbanner[currentIn].name:''}`" alt="" class="absolute  inset-0 -z-10 h-full w-full object-cover brightness-50" />
         </div>
 
       </div>
@@ -36,34 +36,34 @@
               " srcset="">
         </div>
 
-        <div class="lg:pr-10 sm:pb-4 px-4 flex flex-col justify-between items-center h-full " >
+        <div class="lg:pr-10 sm:pb-4 px-4 flex flex-col justify-center items-center h-full " >
           <p class="text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  ">
             Cuando creamos un nuevo destino en nuestra mente creamos un nuevo futuro en nuestra vida. 
           </p>
 
           <p class="text-paragraph mb-4 parrafotext text-center" >Contamos con una metodologia efectiva para ayudarte a liberar todo tu potencial para lograr tus metas y los cambios qeu necesitas</p>
 
-          <NuxtLink to="/metodolo" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
+          <NuxtLink to="/metodologia" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
         
       </div>
       </div>
 
-      <div class="w-full flex justify-center" >
-        <p class="centradoPgrande text-center text-paragraph font-bold text-2xl"  >INVIERTE EN LA NUEVA  MUJER QUE TE QUIERES CONVERTIR</p>
-      </div>
+  
 
       <div class="w-full   flex justify-center my-8 " >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
-        <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-between  h-full " >
+
+        <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-center  h-auto  " >
+          <p class="centradoPgrande text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  "  >Invierte en la mujer que te quieres convertir</p>
           <p class="text-paragraph mb-4 parrafotext text-center  w-full  h-full flex justify-center items-center  ">
             Somos un centro de desarrollo personal y psicología positiva que cree en las potencialidades de cada persona para lograr lo que se proponen a través de la reprogramación mental, el desarrollo de habilidades, la gestión de las emociones y el empoderamiento para el cambio. 
           </p>
-          <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
+          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
 
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
-              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20home%201%20ok.jpg?alt=media" alt=""  
+              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%203%20home%20ok.jpg?alt=media" alt=""  
               class=" object-cover py-4 lg:py-0
               transform 
               " srcset="">
@@ -93,7 +93,7 @@
           <p class="text-paragraph mb-4  text-center  w-full  h-full lg:h-20  flex justify-center items-center  ">
             Entrena tu mente, potencia tu liderazgo y empodérate para la toma de decisiones y realizar los cambios que necesitas.
           </p>
-          <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
+          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
 
         <div class="py-6 lg:py-0 sm:pb-4 flex flex-col items-center justify-between  h-full " >
@@ -107,7 +107,7 @@
           <p class="text-paragraph mb-4  text-center  w-full  h-full lg:h-20  flex justify-center items-center  ">
             Recibe la guía y mentoría para el desarrollo de tu liderazgo  y cumple tus metas  personales y profesionales.
           </p>
-          <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
+          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
 
 
@@ -122,7 +122,7 @@
           <p class="text-paragraph mb-4  text-center  w-full  h-full  lg:h-20  flex justify-center items-center  ">
             Participa de nuestros eventos gratuitos y siente la energía del cambio que requieres hacer.
           </p>
-          <button class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</button>
+          <NuxtLink to="/services" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
 
 
@@ -136,7 +136,7 @@
                 
                 " srcset="">
 
-                <p class="absolute lg:right-6 text-center bottom-6  lg:text-xl font-bold text-white flex flex-col items-center gap-y-6">
+                <p class="absolute lg:right-6 lg:w-[50%]   bottom-[16%]  lg:text-5xl font-bold text-white flex flex-col  gap-y-6">
                   <span>¡Únete a nuestro club de aprendizaje  e intercambio de experiencias!</span>
 
                   <span class="/n" >¡Junt@s podemos con todo!</span>
@@ -232,7 +232,7 @@ const imgs=[
 
 
 const imagesbanner = [
-  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FCuarta%20imagen%20De%20scroll%20superior%20ok.png?alt=media'},
+  {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FCabecera%20p%C3%A1gina%20web%20corta-01-01okmkeyy.jpg?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FPrimera%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FSegunda%20imagen%20de%20scroll%20superior%20ok.jpg?alt=media'},
   {name:'https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FTercera%20magen%20de%20scroll%20superior%20ok.jpg?alt=media'},
