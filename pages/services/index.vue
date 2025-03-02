@@ -453,7 +453,7 @@ const programas = [
   const workshops = [
     {
       id: '8tk41vertyt629in0kx4jvqtitkilalo',
-      name: 'Taller de Propósito de vida por el Día de la Mujer',
+      name: 'Taller de Liderazgos Femeninos por el Día de la Mujer',
       href: '#', price:0,
       description:
         'En el marco del Día de la Mujer, te invitamos a un workshop exclusivo diseñado para mujeres que buscan conectar con su propósito de vida, alinear sus objetivos con sus valores y potenciar su desarrollo personal y profesional.',
