@@ -145,15 +145,17 @@
 
       <div class="w-full   flex justify-center my-8 " >
       <div class=" grid grid-cols-1 lg:grid-cols-2 items-center  centradoPgrande ">
-        <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-between  h-full " >
-          <p class="font-bold text-xl text-primary">Nuestra Misión</p>
-          <p class="text-paragraph mb-4  text-center  w-full  h-full flex justify-center items-center  ">
+        <div class="lg:pr-10 sm:pb-4 flex flex-col items-center justify-center  h-auto " >
+          
+          <p class="centradoPgrande text-paragraph mb-4  text-center  text-2xl font-robotoflex font-bold  "  >Nuestra Misión</p>
+          <p class="text-paragraph mb-4  text-center  w-full parrafotext h-full flex justify-center items-center  ">
             Ayudar a las personas a alcanzar sus sueños, metas y objetivos a través de la reprogramación de creencias limitantes, desarrollo de habilidades, la gestión de sus emociones y el empoderamiento para el cambio, aumentando su estado de bienestar, felciidad y calidad de vida.
           </p>
+          <NuxtLink to="/nosotros" class="w-36 px-8 py-1  border-2 border-primary" >MAS INFO</NuxtLink>
         </div>
 
         <div  class="w-full flex flex-col md:flex-row  justify-center items-center md:items-start md:justify-between  gap-x-4 " >
-              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20home%201%20ok.jpg?alt=media" alt=""  
+              <img src="https://firebasestorage.googleapis.com/v0/b/peloterosfc-c496a.appspot.com/o/proactiva%2FImagen%20Home%204.jpg?alt=media" alt=""  
               class=" object-cover py-4 lg:py-0
               transform 
               " srcset="">
