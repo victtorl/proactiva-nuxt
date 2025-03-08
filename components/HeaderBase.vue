@@ -211,9 +211,12 @@
                                 </span>
                             </div>
                         </div>
+                        <div class="pt-[52px] lg:hidden" >
+                            <PanelOferta/>
+                        </div>
                         <!-- Navbar content mobile && desktop -->
                         <nav class="mx-auto flex  bg-[#86654B] py-2 lg:py-0   items-center justify-between px-2   absolute top-0 w-full " aria-label="Global">
-                      
+                     
                             <!-- items nav mobile -->
                             <div class=" flex lg:hidden lg:flex-row  items-center justify-end  p-3  w-full">
                                 <a href="/" class="-m-1.5 p-1.5">
