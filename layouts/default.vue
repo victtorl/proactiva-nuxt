@@ -1,7 +1,6 @@
 <template>
     <!-- aqui pondras un header que se repite siempre -->
     <div class="bg-secundary ">
-
       <span>
         <HeaderBase/>
       </span>

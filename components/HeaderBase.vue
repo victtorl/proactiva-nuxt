@@ -2,6 +2,7 @@
 
 <div class="bg-gradient-to-r  pb-0 lg:pb-24  " >
     <header class="bg-white dark:bg-gray-800 shadow-lg hidden lg:block fixed z-50 w-full ">
+        <PanelOferta/>
         <nav class="container mx-auto px-4 py-6 flex justify-between items-center centradoPgrande">
             <!-- <a href="#" class="text-2xl font-bold text-indigo-800 dark:text-white transition-colors duration-300">
                 Logo
