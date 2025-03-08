@@ -10,7 +10,7 @@
       </div>
       <div class="flex flex-wrap items-center gap-x-4 gap-y-2 ">
         <p class="text-sm/6 text-[#ae36ab] ">
-          <strong class="font-bold">Día de la Mujer</strong><svg viewBox="0 0 2 2" class="mx-2 inline size-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Este sabado 8 de marzo no te pierdas <NuxtLink to="/services/Taller%20de%20Liderazgos%20Femeninos%20por%20el%20Día%20de%20la%20Mujer" ><span class="underline cursor-pointer font-semibold" >nuestro taller gratuito</span></NuxtLink>!!
+          <strong class="font-bold">Día de la Mujer</strong><svg viewBox="0 0 2 2" class="mx-2 inline size-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Este sabado 8 de marzo no te pierdas <a @click="goServices()"><span class="underline cursor-pointer font-semibold" >nuestro taller gratuito</span></a>!!
         </p>
         <NuxtLink to="https://docs.google.com/forms/d/1ZiQ6utcorDTgCo_JxOjrorQhfKiIU0pfr8sw9X2POZ0/viewform?edit_requested=true" target="_blank" class="flex-none rounded-full bg-[#ff0080]  px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-[#e4007c] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Inscribirse  Ahora<span aria-hidden="true">&rarr;</span></NuxtLink>
       </div>
@@ -27,11 +27,21 @@
   </template>
   
   <script setup>
+  import { goTo } from '~/codesutils/utils'
 
   const isvisible=ref(true)
 
   const toogleVisible=() => {
         isvisible.value = false     
   }
+
+  const route=useRouter()
+
+  let goServices=() => {
+    route.push({ path: "/services" })
+    setTimeout(() => {
+      goTo('eventogratis')  
+    }, 1000);
+}
 
   </script>
